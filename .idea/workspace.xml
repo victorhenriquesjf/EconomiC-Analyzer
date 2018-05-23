@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8d0a5670-d7f2-46f1-af5b-023a12514a15" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/classes/action.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/classes/beneficiaries.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/classes/city.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/classes/files.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/classes/functions.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/classes/payments.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/classes/programs.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/classes/region.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/classes/source.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/classes/state.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/classes/subfunctions.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/classes/template.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/db/conexao.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/CHANGELOG.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/CHANGES 5.7.3.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/CHANGES 5.7.4.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/CREDITS.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/FONT INFO.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/LICENSE.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/README.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/classes/barcode.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/classes/bmp.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/classes/cssmgr.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/classes/directw.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/classes/form.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/classes/gif.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/classes/grad.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/classes/indic.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/classes/meter.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/classes/svg.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/classes/tocontents.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/classes/ttfontsuni.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/classes/ttfontsuni_analysis.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/classes/wmf.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/composer.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/compress.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/config.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/config_cp.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/config_fonts.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/alpha.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/alpha.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/alpha3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/bayeux1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/bgbarcode.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/bgrock.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/borders2FF.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/borders2IE.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/borders3FF.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/borders3IE.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/borders4FF.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/borders4IE.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/bordersFF.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/bordersIE.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/bordersMPDF2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/clematis.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example01_basic.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example02_CSS_styles.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example03_backgrounds_and_borders.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example04_images.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example05_tables.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example06_tables_nested.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example07_tables_borders.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example08_lists.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example09_forms.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example10_floating_and_fixed_position_elements.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example11_overflow_auto.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example12_paging_html.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example13_paging_css.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example14_page_numbers_ToC_Index_Bookmarks.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example15_headers_method_1.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example16_headers_method_2.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example17_headers_method_3.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example18_headers_method_4.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example19_page_sizes.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example20_justify.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example21_hyphenation.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example22_columns.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example23_orientation.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example24_orientation_2.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example26_RTL.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example27_CJK_using_Adobe_fonts.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example28_CJK_using_embedded_fonts.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example29_multilingual_autofont.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example30_arabic.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example32_indic.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example35_watermarks.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example36_annotations_and_Attached_files.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example37_barcodes.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example38_dot_tab.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example39_PDFA_compliance.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example40_MPDFI_thumbnails.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example41_MPDFI_template.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example42_MPDFI_templatedoc.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example43_MPDFI_booklet.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example44_MPDFI_yearbook.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example46_progress_bars_simple.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example47_progress_bars_simple_custom.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example48_progress_bars_advanced.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example49_changelog.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example50_new_mPDF_3_features.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example51_new_mPDF_4_features.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example52_lineheight.htm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example52_new_mPDF_4-2_features.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example53_new_mPDF_v5-0_fonts.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example54_new_mPDF_v5-1_features_gradients_and_images.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example55_new_mPDF_v5-1_color_and_other_features.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example56_new_mPDF_v5-1_features_grayscale.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example57_new_mPDF_v5-3_active_forms.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example57_new_mPDF_v5-3_active_forms_b.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example58_new_mPDF_v5-4_features.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example59_new_mPDF_v5-6_features.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/example60_new_mPDF_v5-7_features.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/firefox-48.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/flowers-pattern.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/formsubmit.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/goto.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/img1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/img2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/img3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/img4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/img5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/index.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/klematis.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/mpdfstyleA4.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/mpdfstylePaged.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/mpdfstyletables.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/quran282.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/sample_basic.pdf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/sample_logoheader2.pdf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/sample_orientation2.pdf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/sample_orientation3.pdf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/show_code.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/sunset.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/sunsetv.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/test.pdf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/tiger" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/tiger.bmp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/tiger.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/tiger.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/tiger.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/tiger.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/tiger.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/tiger.wmf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/tiger2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/tiger2.wmf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/tiger24trns.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/tiger300px300dpi.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/tiger300px300dpi.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/tiger300px72dpi.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/tiger300px96dpi.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/tiger300px96dpi.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/tiger8trns.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/tiger8trns.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/tigercmyk.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/tux.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/examples/windmill.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/font/ccourier.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/font/ccourierb.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/font/ccourierbi.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/font/ccourieri.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/font/chelvetica.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/font/chelveticab.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/font/chelveticabi.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/font/chelveticai.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/font/csymbol.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/font/ctimes.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/font/ctimesb.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/font/ctimesbi.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/font/ctimesi.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/font/czapfdingbats.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/graph.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/graph_cache/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/iccprofiles/SWOP2006_Coated5v2.icc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/iccprofiles/sRGB_IEC61966-2-1.icc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/includes/CJKdata.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/includes/functions.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/includes/ind_bn_1_001.volt.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/includes/ind_gu_1_001.volt.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/includes/ind_hi_1_001.volt.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/includes/ind_kn_1_001.volt.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/includes/ind_ml_1_001.volt.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/includes/ind_or_1_001.volt.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/includes/ind_pa_1_001.volt.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/includes/ind_ta_1_001.volt.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/includes/ind_te_1_001.volt.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/includes/no_image.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/includes/out.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/includes/subs_core.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/includes/subs_win-1252.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/includes/upperCase.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/mpdf.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/mpdf.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/mpdfi/filters/FilterASCII85.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/mpdfi/filters/FilterLZW.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/mpdfi/fpdi_pdf_parser.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/mpdfi/pdf_context.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/mpdfi/pdf_parser.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/patterns/NOTES.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/patterns/de.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/patterns/dictionary.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/patterns/en.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/patterns/es.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/patterns/fi.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/patterns/fr.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/patterns/it.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/patterns/nl.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/patterns/pl.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/patterns/ru.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/patterns/sv.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/progbar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/tmp/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfontdata/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/DejaVuSans-Bold.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/DejaVuSans-BoldOblique.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/DejaVuSans-Oblique.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/DejaVuSans.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/DejaVuSansCondensed-Bold.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/DejaVuSansCondensed-BoldOblique.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/DejaVuSansCondensed-Oblique.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/DejaVuSansCondensed.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/DejaVuSansMono-Bold.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/DejaVuSansMono-BoldOblique.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/DejaVuSansMono-Oblique.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/DejaVuSansMono.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/DejaVuSerif-Bold.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/DejaVuSerif-BoldItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/DejaVuSerif-Italic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/DejaVuSerif.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/DejaVuSerifCondensed-Bold.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/DejaVuSerifCondensed-BoldItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/DejaVuSerifCondensed-Italic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/DejaVuSerifCondensed.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/DejaVuinfo.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/GNUFreeFontinfo.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/Garuda-Bold.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/Garuda-BoldOblique.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/Garuda-Oblique.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/Garuda.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/Norasi-Bold.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/Norasi-BoldOblique.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/Norasi-Oblique.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/Norasi.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/Thai Fonts License.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/XB Riyaz.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/XB RiyazBd.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/XB RiyazBdIt.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/XB RiyazIt.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/XB Zar Bd.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/XB Zar BdIt.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/XB Zar It.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/XB Zar.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/XW Zar Font Info.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/ind_bn_1_001.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/ind_gu_1_001.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/ind_hi_1_001.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/ind_kn_1_001.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/ind_ml_1_001.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/ind_or_1_001.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/ind_pa_1_001.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/ind_ta_1_001.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/ind_te_1_001.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/ocrb10.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/ttfonts/ocrbinfo.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/utils/UnicodeData.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/utils/UnicodeRanges.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/utils/font_collections.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/utils/font_coverage.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/utils/font_dump.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/utils/font_names.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/mpdf/utils/index.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/relatorio/beneficiariosCidade_relatorio.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/relatorio/beneficiarios_relatorio.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/relatorio/relatorio.php" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" afterPath="$PROJECT_DIR$/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="beneficiarios_relatorio.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/system/relatorio/beneficiarios_relatorio.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <marker date="1526997029201" expanded="true" signature="409:499" ph="..." />
+                <marker date="1526997029201" expanded="true" signature="419:499" ph="..." />
+                <marker date="1526997029201" expanded="true" signature="549:637" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="action.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system/classes/action.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conexao.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system/db/conexao.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="77" lean-forward="false" selection-start-line="2" selection-start-column="77" selection-end-line="2" selection-end-column="77" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ci</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/system/navegacao/beneficiaries.php" />
+        <option value="$PROJECT_DIR$/system/navegacao/dashboard.php" />
+        <option value="$PROJECT_DIR$/system/dashboard.php" />
+        <option value="$PROJECT_DIR$/system/index.php" />
+        <option value="$PROJECT_DIR$/system/tb_state.php" />
+        <option value="$PROJECT_DIR$/system/region.php" />
+        <option value="$PROJECT_DIR$/system/action.php" />
+        <option value="$PROJECT_DIR$/system/dao/tb_stateDAO.php" />
+        <option value="$PROJECT_DIR$/system/classes/tb_state.php" />
+        <option value="$PROJECT_DIR$/system/programs.php" />
+        <option value="$PROJECT_DIR$/system/files.php" />
+        <option value="$PROJECT_DIR$/system/beneficiaries.php" />
+        <option value="$PROJECT_DIR$/system/functions.php" />
+        <option value="$PROJECT_DIR$/system/subfunctions.php" />
+        <option value="$PROJECT_DIR$/system/source.php" />
+        <option value="$PROJECT_DIR$/system/city.php" />
+        <option value="$PROJECT_DIR$/system/state.php" />
+        <option value="$PROJECT_DIR$/system/payments.php" />
+        <option value="$PROJECT_DIR$/system/classes/beneficiaries.php" />
+        <option value="$PROJECT_DIR$/system/classes/city.php" />
+        <option value="$PROJECT_DIR$/system/classes/files.php" />
+        <option value="$PROJECT_DIR$/system/classes/functions.php" />
+        <option value="$PROJECT_DIR$/system/classes/payments.php" />
+        <option value="$PROJECT_DIR$/system/classes/programs.php" />
+        <option value="$PROJECT_DIR$/system/classes/region.php" />
+        <option value="$PROJECT_DIR$/system/classes/source.php" />
+        <option value="$PROJECT_DIR$/system/classes/state.php" />
+        <option value="$PROJECT_DIR$/system/classes/subfunctions.php" />
+        <option value="$PROJECT_DIR$/system/classes/template.php" />
+        <option value="$PROJECT_DIR$/system/dao/actionDAO.php" />
+        <option value="$PROJECT_DIR$/system/dao/cityDAO.php" />
+        <option value="$PROJECT_DIR$/system/dao/functionsDAO.php" />
+        <option value="$PROJECT_DIR$/system/dao/paymentsDAO.php" />
+        <option value="$PROJECT_DIR$/system/dao/programsDAO.php" />
+        <option value="$PROJECT_DIR$/system/dao/regionDAO.php" />
+        <option value="$PROJECT_DIR$/system/dao/sourceDAO.php" />
+        <option value="$PROJECT_DIR$/system/dao/stateDAO.php" />
+        <option value="$PROJECT_DIR$/system/dao/subfunctionsDAO.php" />
+        <option value="$PROJECT_DIR$/system/dao/filesDAO.php" />
+        <option value="$PROJECT_DIR$/system/libs/mpdf/relatorio.php" />
+        <option value="$PROJECT_DIR$/system/libs/mpdf/aluno_relatorio.php" />
+        <option value="$PROJECT_DIR$/system/dao/beneficiariesDAO.php" />
+        <option value="$PROJECT_DIR$/system/libs/mpdf/beneficiarios_relatorio.php" />
+        <option value="$PROJECT_DIR$/system/db/conexao.php" />
+        <option value="$PROJECT_DIR$/system/relatorio/beneficiarios_relatorio.php" />
+        <option value="$PROJECT_DIR$/system/classes/action.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="87" />
+    <option name="y" value="13" />
+    <option name="width" value="1196" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="EconomiC-Analyzer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EconomiC-Analyzer" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="EconomiC-Analyzer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EconomiC-Analyzer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="system" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Rotciv\Desktop\EconomiC-Analyzer\system" />
+      <recent name="C:\Users\aluno\Desktop\EconomiC-Analyzer\system\libs" />
+      <recent name="C:\Users\aluno\Desktop\EconomiC-Analyzer\system\relatorio" />
+      <recent name="C:\Users\aluno\Desktop\EconomiC-Analyzer\system\libs\mpdf" />
+      <recent name="C:\Users\aluno\Desktop\EconomiC-Analyzer\system\libs\mpdf\mpdf" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Rotciv\Desktop\EconomiC-Analyzer\system\relatorio" />
+      <recent name="C:\Users\aluno\Desktop\EconomiC-Analyzer\system\libs" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d0a5670-d7f2-46f1-af5b-023a12514a15" name="Default" comment="" />
+      <created>1524875082746</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1524875082746</updated>
+      <workItem from="1524875085183" duration="2164000" />
+      <workItem from="1525105391682" duration="11940000" />
+      <workItem from="1525217152686" duration="1272000" />
+      <workItem from="1525222655774" duration="3261000" />
+      <workItem from="1525306265870" duration="3877000" />
+      <workItem from="1525390107542" duration="4411000" />
+      <workItem from="1525557541041" duration="4289000" />
+      <workItem from="1525732474519" duration="4215000" />
+      <workItem from="1525821766943" duration="5131000" />
+      <workItem from="1526646794819" duration="4699000" />
+      <workItem from="1526688856726" duration="2678000" />
+      <workItem from="1526691992784" duration="998000" />
+      <workItem from="1526776330871" duration="1827000" />
+      <workItem from="1526781498442" duration="4548000" />
+      <workItem from="1527078826665" duration="855000" />
+      <workItem from="1527081142987" duration="89000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="56254000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="87" y="13" width="1196" height="735" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21610169" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32755905" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18594436" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884398" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="17" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/system/classes/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1683">
+          <caret line="104" column="39" lean-forward="false" selection-start-line="104" selection-start-column="39" selection-end-line="104" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/dashboard.php" />
+    <entry file="file://$PROJECT_DIR$/system/navegacao/beneficiaries.php" />
+    <entry file="file://$PROJECT_DIR$/system/dashboard.php" />
+    <entry file="file://$PROJECT_DIR$/system/assets/css/themify-icons.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="66" lean-forward="true" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/classes/tb_state.php" />
+    <entry file="file://$PROJECT_DIR$/system/dao/tb_stateDAO.php" />
+    <entry file="file://$PROJECT_DIR$/system/tb_state.php" />
+    <entry file="file://$PROJECT_DIR$/system/programs.php" />
+    <entry file="file://$PROJECT_DIR$/system/index.php" />
+    <entry file="file://$PROJECT_DIR$/system/files.php" />
+    <entry file="file://$PROJECT_DIR$/system/functions.php" />
+    <entry file="file://$PROJECT_DIR$/system/subfunctions.php" />
+    <entry file="file://$PROJECT_DIR$/system/region.php" />
+    <entry file="file://$PROJECT_DIR$/system/source.php" />
+    <entry file="file://$PROJECT_DIR$/system/state.php" />
+    <entry file="file://$PROJECT_DIR$/system/action.php" />
+    <entry file="file://$PROJECT_DIR$/system/city.php" />
+    <entry file="file://$PROJECT_DIR$/system/payments.php" />
+    <entry file="file://$PROJECT_DIR$/DB_ECA.sql" />
+    <entry file="file://$PROJECT_DIR$/system/beneficiaries.php" />
+    <entry file="file://$PROJECT_DIR$/system/db/db_eca.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/dao/filesDAO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="72" column="30" lean-forward="false" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/dao/cityDAO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="70" column="30" lean-forward="false" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/dao/functionsDAO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="49" column="38" lean-forward="false" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/dao/paymentsDAO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="203" column="1" lean-forward="true" selection-start-line="203" selection-start-column="1" selection-end-line="203" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/dao/programsDAO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="50" column="37" lean-forward="false" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/dao/regionDAO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="48" column="35" lean-forward="false" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/dao/sourceDAO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="65" column="80" lean-forward="false" selection-start-line="65" selection-start-column="80" selection-end-line="65" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/dao/stateDAO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="61" column="80" lean-forward="false" selection-start-line="61" selection-start-column="80" selection-end-line="61" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/dao/subfunctionsDAO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="49" column="41" lean-forward="false" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/classes/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/classes/payments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/classes/programs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/classes/region.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/classes/source.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/classes/state.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/classes/subfunctions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/classes/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/classes/files.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/classes/city.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/dao/actionDAO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="49" column="35" lean-forward="false" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/libs/mpdf/tmp/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/relatorio/relatorio.php" />
+    <entry file="file://$PROJECT_DIR$/system/classes/beneficiaries.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/db/conexao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="77" lean-forward="false" selection-start-line="2" selection-start-column="77" selection-end-line="2" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/dao/beneficiariesDAO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="170" column="0" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/classes/action.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/relatorio/beneficiarios_relatorio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <marker date="1526997029201" expanded="true" signature="409:499" ph="..." />
+            <marker date="1526997029201" expanded="true" signature="419:499" ph="..." />
+            <marker date="1526997029201" expanded="true" signature="549:637" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
