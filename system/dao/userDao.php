@@ -1,15 +1,15 @@
 <?php
 require_once "../db/conexao.php";
-require_once "../classes/action.php";
+require_once "../classes/user.php";
 
-class actionDAO
+class userDao
 {
-    public function delete($action)
+    public function delete($user)
     {
         global $pdo;
         try {
-            $statement = $pdo->prepare("DELETE FROM tb_action WHERE id_action = :id");
-            $statement->bindValue(":id", $action->getIdAction());
+            $statement = $pdo->prepare("DELETE FROM tb_user WHERE id_user = :id");
+            $statement->bindValue(":id", $user->getIdUser());
             if ($statement->execute()) {
                 return "<script> alert('Excluído com sucesso !'); </script>";
             } else {
@@ -20,18 +20,20 @@ class actionDAO
         }
     }
 
-    public function save($action)
+    public function save($user)
     {
         global $pdo;
         try {
-            if ($action->getIdAction() != "") {
-                $statement = $pdo->prepare("UPDATE tb_action SET str_cod_action=:str_cod_action, str_name_action=:str_name_action WHERE id_action = :id;");
-                $statement->bindValue(":id", $action->getIdAction());
+            if ($user->getIdUser() != "") {
+                $statement = $pdo->prepare("UPDATE tb_user SET name_user=:name_user, login=:login, password=:password, status=:status  WHERE id_user = :id;");
+                $statement->bindValue(":id", $user->getIdUser());
             } else {
-                $statement = $pdo->prepare("INSERT INTO tb_action (str_cod_action, str_name_action) VALUES (:str_cod_action, :str_name_action)");
+                $statement = $pdo->prepare("INSERT INTO tb_user (name_user, login, password, status ) VALUES (:name_user, :login, :password, :status)");
             }
-            $statement->bindValue(":str_cod_action", $action->getStrCodAction());
-            $statement->bindValue(":str_name_action", $action->getStrNameAction());
+            $statement->bindValue(":name_user", $user->getNameUser());
+            $statement->bindValue(":login", $user->getLogin());
+            $statement->bindValue(":password", $user->getPassword());
+            $statement->bindValue(":status", $user->getStatus());
 
             if ($statement->execute()) {
                 if ($statement->rowCount() > 0) {
@@ -47,19 +49,20 @@ class actionDAO
         }
     }
 
-    public function update($action)
+    public function update($user)
     {
         global $pdo;
         try {
-            $statement = $pdo->prepare("SELECT id_action, str_cod_action, str_name_action FROM tb_action WHERE id_action = :id");
-            $statement->bindValue(":id", $action->getIdAction());
+            $statement = $pdo->prepare("SELECT name_user, login, password, status FROM tb_user WHERE id_user = :id");
+            $statement->bindValue(":id", $user->getIdUser());
             if ($statement->execute()) {
                 $rs = $statement->fetch(PDO::FETCH_OBJ);
-                $action->setIdAction($rs->id_action);
-                $action->setStrCodAction($rs->str_cod_action);
-                $action->setStrNameAction($rs->str_name_action);
+                $user->setNameUser($rs->name_user);
+                $user->setLogin($rs->login);
+                $user->setPassword($rs->password);
+                $user->setStatus($rs->status);
 
-                return $action;
+                return $user;
             } else {
                 throw new PDOException("<script> alert('Erro na declaração SQL !'); </script>");
             }
@@ -88,13 +91,13 @@ class actionDAO
         $linha_inicial = ($pagina_atual - 1) * QTDE_REGISTROS;
 
         /* Instrução de consulta para paginação com MySQL */
-        $sql = "SELECT id_action, str_cod_action, str_name_action FROM tb_action LIMIT {$linha_inicial}, " . QTDE_REGISTROS;
+        $sql = "SELECT id_user, name_user, login, password, status FROM tb_user LIMIT {$linha_inicial}, " . QTDE_REGISTROS;
         $statement = $pdo->prepare($sql);
         $statement->execute();
         $dados = $statement->fetchAll(PDO::FETCH_OBJ);
 
         /* Conta quantos registos existem na tabela */
-        $sqlContador = "SELECT COUNT(*) AS total_registros FROM tb_action";
+        $sqlContador = "SELECT COUNT(*) AS total_registros FROM tb_user";
         $statement = $pdo->prepare($sqlContador);
         $statement->execute();
         $valor = $statement->fetch(PDO::FETCH_OBJ);
@@ -128,20 +131,24 @@ class actionDAO
      <table class='table table-striped table-bordered'>
      <thead>
        <tr style='text-transform: uppercase;' class='active'>
-        <th style='text-align: center; font-weight: bolder;'>Código</th>
-        <th style='text-align: center; font-weight: bolder;'>Código Ação</th>
-        <th style='text-align: center; font-weight: bolder;'>Nome Ação</th>
+        <th style='text-align: center; font-weight: bolder;'>Identificador</th>
+        <th style='text-align: center; font-weight: bolder;'>Nome</th>
+        <th style='text-align: center; font-weight: bolder;'>Login</th>
+        <th style='text-align: center; font-weight: bolder;'>Senha</th>
+        <th style='text-align: center; font-weight: bolder;'>Status</th>
         <th style='text-align: center; font-weight: bolder;' colspan='2'>Ações</th>
        </tr>
      </thead>
      <tbody>";
             foreach ($dados as $acti):
                 echo "<tr>
-        <td style='text-align: center'>$acti->id_action</td>
-        <td style='text-align: center'>$acti->str_cod_action</td>
-        <td style='text-align: center'>$acti->str_name_action</td>
-        <td style='text-align: center'><a href='?act=upd&id=$acti->id_action' title='Alterar'><i class='ti-reload'></i></a></td>
-        <td style='text-align: center'><a href='?act=del&id=$acti->id_action' title='Remover'><i class='ti-close'></i></a></td>
+        <td style='text-align: center'>$acti->id_user</td>
+        <td style='text-align: center'>$acti->name_user</td>
+        <td style='text-align: center'>$acti->login</td>
+        <td style='text-align: center'>$acti->password</td>
+        <td style='text-align: center'>$acti->status</td>
+        <td style='text-align: center'><a href='?act=upd&id=$acti->id_user' title='Alterar'><i class='ti-reload'></i></a></td>
+        <td style='text-align: center'><a href='?act=del&id=$acti->id_user' title='Remover'><i class='ti-close'></i></a></td>
        </tr>";
             endforeach;
             echo "
@@ -168,27 +175,5 @@ class actionDAO
         endif;
 
     }
-
-    public function findId($id)
-    {
-        $action = new action();
-        global $pdo;
-        try {
-            $statement = $pdo->prepare("SELECT id_action, str_cod_action, str_name_action FROM tb_action WHERE id_action = $id");
-            if ($statement->execute()) {
-                $rs = $statement->fetch(PDO::FETCH_OBJ);
-                $action->setIdAction($rs->id_action);
-                $action->setStrCodAction($rs->str_cod_action);
-                $action->setStrNameAction($rs->str_name_action);
-
-                return $action;
-            } else {
-                throw new PDOException("<script> alert('Erro na declaração SQL !'); </script>");
-            }
-        } catch (PDOException $erro) {
-            return "Erro: " . $erro->getMessage();
-        }
-    }
-
 
 }
