@@ -1,6 +1,6 @@
 <?php
-require_once "../db/conexao.php";
-require_once "../classes/payments.php";
+require_once "db/conexao.php";
+require_once "classes/payments.php";
 
 class paymentsDAO
 {
@@ -117,28 +117,28 @@ class paymentsDAO
         $statement->execute();
         $valor = $statement->fetch(PDO::FETCH_OBJ);
 
-        /* Idêntifica a primeira página */
+
         $primeira_pagina = 1;
 
-        /* Cálcula qual será a última página */
+
         $ultima_pagina  = ceil($valor->total_registros / QTDE_REGISTROS);
 
-        /* Cálcula qual será a página anterior em relação a página atual em exibição */
+
         $pagina_anterior = ($pagina_atual > 1) ? $pagina_atual -1 : 0 ;
 
-        /* Cálcula qual será a pŕoxima página em relação a página atual em exibição */
+
         $proxima_pagina = ($pagina_atual < $ultima_pagina) ? $pagina_atual +1 : 0 ;
 
-        /* Cálcula qual será a página inicial do nosso range */
+
         $range_inicial  = (($pagina_atual - RANGE_PAGINAS) >= 1) ? $pagina_atual - RANGE_PAGINAS : 1 ;
 
-        /* Cálcula qual será a página final do nosso range */
+
         $range_final   = (($pagina_atual + RANGE_PAGINAS) <= $ultima_pagina ) ? $pagina_atual + RANGE_PAGINAS : $ultima_pagina ;
 
-        /* Verifica se vai exibir o botão "Primeiro" e "Pŕoximo" */
+
         $exibir_botao_inicio = ($range_inicial < $pagina_atual) ? 'mostrar' : 'esconder';
 
-        /* Verifica se vai exibir o botão "Anterior" e "Último" */
+
         $exibir_botao_final = ($range_final > $pagina_atual) ? 'mostrar' : 'esconder';
 
         if (!empty($dados)):
@@ -146,17 +146,17 @@ class paymentsDAO
      <table class='table table-striped table-bordered'>
      <thead>
        <tr style='text-transform: uppercase;' class='active'>
-        <th style='text-align: center; font-weight: bolder;'>Código</th>
-        <th style='text-align: center; font-weight: bolder;'>Cidade</th>
-        <th style='text-align: center; font-weight: bolder;'>Função</th>
-        <th style='text-align: center; font-weight: bolder;'>Sub-Função</th>
-        <th style='text-align: center; font-weight: bolder;'>Programa</th>
-        <th style='text-align: center; font-weight: bolder;'>Ação</th>
-        <th style='text-align: center; font-weight: bolder;'>Beneficiários</th>
-        <th style='text-align: center; font-weight: bolder;'>Fonte</th>
-        <th style='text-align: center; font-weight: bolder;'>Arquivos</th>
-        <th style='text-align: center; font-weight: bolder;'>Valor</th>
-        <th style='text-align: center; font-weight: bolder;' colspan='2'>Ações</th>
+        <th style='text-align: center; font-weight: bolder;'>Code</th>
+        <th style='text-align: center; font-weight: bolder;'>City</th>
+        <th style='text-align: center; font-weight: bolder;'>Function</th>
+        <th style='text-align: center; font-weight: bolder;'>Sub-Function</th>
+        <th style='text-align: center; font-weight: bolder;'>Program</th>
+        <th style='text-align: center; font-weight: bolder;'>Action</th>
+        <th style='text-align: center; font-weight: bolder;'>Beneficiaries</th>
+        <th style='text-align: center; font-weight: bolder;'>Source</th>
+        <th style='text-align: center; font-weight: bolder;'>Files</th>
+        <th style='text-align: center; font-weight: bolder;'>Value</th>
+        <th style='text-align: center; font-weight: bolder;' colspan='2'>Actions</th>
        </tr>
      </thead>
      <tbody>";
@@ -185,7 +185,7 @@ class paymentsDAO
        <a class='box-navegacao  $exibir_botao_inicio' href='$endereco?page=$pagina_anterior' title='Página Anterior'> ANTERIOR  |</a>
 ";
 
-            /* Loop para montar a páginação central com os números */
+
             for ($i = $range_inicial; $i <= $range_final; $i++):
                 $destaque = ($i == $pagina_atual) ? 'destaque' : '';
                 echo "<a class='box-numero $destaque' href='$endereco?page=$i'> ( $i ) </a>";
