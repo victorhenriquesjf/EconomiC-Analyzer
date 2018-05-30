@@ -64,8 +64,6 @@ if (isset($_REQUEST["act"]) && $_REQUEST["act"] == "del" && $id != "") {
                 <div class='card'>
                     <div class='header'>
                         <h4 class='title'>Beneficiaries</h4>
-
-
                     </div>
                     <div class='content table-responsive'>
 
@@ -91,6 +89,25 @@ if (isset($_REQUEST["act"]) && $_REQUEST["act"] == "del" && $id != "") {
                             <hr>
                         </form>
 
+                        <div  style="display: inline-block; text-align: right; width: 100%">
+                            <table style="border: 0px; -webkit-border-horizontal-spacing: 150px; border-collapse: separate; text-align: center"  >
+                                <tr>
+                                    <td>
+                                        <form action="relatorio/beneficiarios_relatorio.php">
+                                            <input class="btn btn-success" type="submit" value="Report of all beneficiaries">
+                                            <p><br/></p>
+                                        </form>
+                                    </td>
+                                    <td>
+                                        <form action="relatorio/beneficiariosCidade_relatorio.php">
+                                            <input class="btn btn-success" type="submit" value="Report of beneficiaries and cities">
+                                            <p><br/></p>
+                                        </form>
+                                    </td>
+
+                                </tr>
+                            </table>
+                        </div>
 
                         <?php
 

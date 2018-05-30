@@ -173,7 +173,7 @@ class beneficiariesDAO
     {
         global $pdo;
         try {
-            $statement = $pdo->prepare('SELECT id_beneficiaries, str_nis,str_name_person FROM tb_beneficiaries');
+            $statement = $pdo->prepare('SELECT id_beneficiaries, str_nis,str_name_person FROM tb_beneficiaries ORDER BY str_name_person');
             if ($statement->execute()) {
                 $listaBeneficiaios= $statement->fetchAll(PDO::FETCH_OBJ);
                 return $listaBeneficiaios;

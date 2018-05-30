@@ -121,6 +121,41 @@ if (isset($_REQUEST["act"]) && $_REQUEST["act"] == "del" && $id != "") {
                             <hr>
                         </form>
 
+                        <div  style="display: inline-block; width: 100%" >
+                            <table style="border: 0px; -webkit-border-horizontal-spacing: 150px; border-collapse: separate; text-align: center"  >
+                                <tr>
+                                    <td>
+                                        <form action="relatorio/pagamentos_relatorio.php">
+                                            <input class="btn btn-success" type="submit" value="Report of all paymants">
+                                            <p><br/></p>
+                                        </form>
+                                    </td>
+                                    <td>
+                                        <form action="relatorio/pagamentosCidade_relatorio.php">
+                                            <input class="btn btn-success" type="submit" value="Report value paid by city">
+                                            <p><br/></p>
+                                        </form>
+                                    </td>
+
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <form action="relatorio/pagamentosRegiao_relatorio.php">
+                                            <input class="btn btn-success" type="submit" value="Report value paid by region">
+                                            <p><br/></p>
+                                        </form>
+                                    </td>
+                                    <td>
+                                        <form action="relatorio/pagamentosEstado_relatorio.php">
+                                            <input class="btn btn-success" type="submit" value="Report value paid by state">
+                                            <p><br/></p>
+                                        </form>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+
 
                         <?php
 
