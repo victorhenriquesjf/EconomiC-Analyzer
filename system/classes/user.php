@@ -83,8 +83,7 @@ class user
     {
         return $this->password;
     }
-
-    /**
+        /**
      * @param mixed $password
      */
     public function setPassword($password)

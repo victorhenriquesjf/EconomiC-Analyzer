@@ -71,8 +71,8 @@ if (isset($_REQUEST["act"]) && $_REQUEST["act"] == "del" && $id_user != "") {
             <div class='col-md-12'>
                 <div class='card'>
                     <div class='header'>
-                        <h4 class='title'>Usuários</h4>
-                        <p class='category'>Lista de Usuários do sistema</p>
+                        <h4 class='title'>Users</h4>
+                        <p class='category'>Users</p>
 
                     </div>
                     <div class='content table-responsive'>
@@ -83,7 +83,7 @@ if (isset($_REQUEST["act"]) && $_REQUEST["act"] == "del" && $id_user != "") {
                             echo (isset($id_user) && ($id_user != null || $id_user != "")) ? $id_user : '';
                             ?>"/>
 
-                            Nome:
+                            Name:
                             <input class="form-control" size="50" name="name_user" value="<?php
                             echo (isset($name_user) && ($name_user != null || $name_user != "")) ? $name_user : '';
                             ?>"/>
@@ -95,7 +95,7 @@ if (isset($_REQUEST["act"]) && $_REQUEST["act"] == "del" && $id_user != "") {
                             ?>"/>
                             <br/>
 
-                            Senha:
+                            Password:
                             <input class="form-control"  size="50" name="password" value="<?php
                             echo (isset($password) && ($password != null || $password != "")) ? $password : '';
                             ?>"/>
@@ -109,11 +109,11 @@ if (isset($_REQUEST["act"]) && $_REQUEST["act"] == "del" && $id_user != "") {
 
                             Status:
                             <select class="form-control" name="status">
-                                <option value="1" <?php if(isset($status) && $status=="1") echo 'selected'?>>Administrador</option>
-                                <option value="0" <?php if(isset($status) && $status=="0") echo 'selected'?>>Usuario</option>
+                                <option value="1" <?php if(isset($status) && $status=="1") echo 'selected'?>>Administrator</option>
+                                <option value="0" <?php if(isset($status) && $status=="0") echo 'selected'?>>Users</option>
                             </select>
 
-                            <input class="btn btn-success" type="submit" value="CADASTRAR" >
+                            <input class="btn btn-success" type="submit" value="Register" >
                             <hr>
                         </form>
                         </div>

@@ -345,6 +345,7 @@ CREATE TABLE `tb_user` (
   `login` varchar(10) NOT NULL,
   `password` varchar(10) NOT NULL,
   `status` int(1) NOT NULL,
+  `email_user` varchar(45) NOT NULL,
   PRIMARY KEY (`id_user`)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -355,7 +356,7 @@ CREATE TABLE `tb_user` (
 
 LOCK TABLES `tb_user` WRITE;
 /*!40000 ALTER TABLE `tb_user` DISABLE KEYS */;
-INSERT INTO `tb_user` VALUES (1,'admin','admin','123456',1),(2,'Adilson','Adilson','789456',0);
+INSERT INTO `tb_user` VALUES (1,'admin','admin','123456',1,'admin@admin'),(2,'Adilson','Adilson','789456',0,'adilson@hotmail.com');
 /*!40000 ALTER TABLE `tb_user` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -368,4 +369,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-05-29 20:00:20
+-- Dump completed on 2018-05-29 23:39:21

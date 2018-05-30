@@ -133,13 +133,13 @@ class userDao
              <table class='table table-striped table-bordered'>
              <thead>
                <tr style='text-transform: uppercase;' class='active'>
-                <th style='text-align: center; font-weight: bolder;'>Identificador</th>
-                <th style='text-align: center; font-weight: bolder;'>Nome</th>
+                <th style='text-align: center; font-weight: bolder;'>Identifier</th>
+                <th style='text-align: center; font-weight: bolder;'>Name</th>
                 <th style='text-align: center; font-weight: bolder;'>Login</th>
-                <th style='text-align: center; font-weight: bolder;'>Senha</th>
+                <th style='text-align: center; font-weight: bolder;'>Password</th>
                 <th style='text-align: center; font-weight: bolder;'>Status</th> 
                  <th style='text-align: center; font-weight: bolder;'>Email</th>
-                <th style='text-align: center; font-weight: bolder;' colspan='2'>Ações</th>
+                <th style='text-align: center; font-weight: bolder;' colspan='2'>Actions</th>
                </tr>
              </thead>
              <tbody>";
@@ -151,8 +151,8 @@ class userDao
                 <td style='text-align: center'>$user->password</td>
                 <td style='text-align: center'>$user->status</td>
                 <td style='text-align: center'>$user->email_user</td>
-                <td style='text-align: center'><a href='?act=upd&id=$user->id_user' title='Alterar'><i class='ti-reload'></i></a></td>
-                <td style='text-align: center'><a href='?act=del&id=$user->id_user' title='Remover'><i class='ti-close'></i></a></td>
+                <td style='text-align: center'><a href='?act=upd&id_user=$user->id_user' title='Alterar'><i class='ti-reload'></i></a></td>
+                <td style='text-align: center'><a href='?act=del&id_user=$user->id_user' title='Remover'><i class='ti-close'></i></a></td>
                </tr>";
             endforeach;
             echo "
