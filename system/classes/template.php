@@ -1,4 +1,6 @@
 <?php
+
+
 class Template
 {
 
@@ -133,7 +135,7 @@ class Template
                 <li>
                     <a href='payments.php'>
                         <i class=\"ti-money\"></i>
-                        <p>Pagamentos</p>
+                        <p>Payments</p>
                     </a>
                 </li>
                 <li>
@@ -158,6 +160,12 @@ class Template
                     <a href='programs.php'>
                         <i class=\"ti-view-list-alt\"></i>
                         <p>Programs</p>
+                    </a>
+                </li>
+                <li>
+                    <a href='user.php'>
+                        <i class=\"ti-user\"></i>
+                        <p>Users</p>
                     </a>
                 </li>
             </ul>

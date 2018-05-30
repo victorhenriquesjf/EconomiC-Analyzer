@@ -1,11 +1,7 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: gusta
- * Date: 30/04/2018
- * Time: 13:33
- */
 require_once "classes/template.php";
+
+session_start();
 
 $template = new Template();
 
@@ -26,8 +22,7 @@ $template->mainpanel();
                     </div>
                     <div class='content table-responsive'>
                         <h3 class="title" style="text-align: center">Bem-vindo ao sistema,
-                            <!-- <b style="color: #337ab7;"> <?= $logado; ?> </b> </h3> -->
-
+                            <b style="color: #337ab7;"> <?= $_SESSION['login']; ?> </b> </h3>
                     </div>
                 </div>
             </div>
