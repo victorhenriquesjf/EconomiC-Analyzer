@@ -32,7 +32,7 @@ class userDao
             }
             $statement->bindValue(":name_user", $user->getNameUser());
             $statement->bindValue(":login", $user->getLogin());
-            $statement->bindValue(":password", $user->getPassword());
+            $statement->bindValue(":password",sha1($user->getPassword()) );
             $statement->bindValue(":status", $user->getStatus());
             $statement->bindValue(":email_user", $user->getEmailUser());
 
@@ -72,6 +72,62 @@ class userDao
             return "Erro: " . $erro->getMessage();
         }
     }
+
+    public function trocaSenha($login, $email){
+
+        global $pdo;
+
+        $sql = " UPDATE tb_user SET password= sha1(123456) where login=:login and email_user=:email;";
+        $statement = $pdo->prepare($sql);
+        $statement->bindValue(":login", $login);
+        $statement->bindValue(":email", $email);
+
+        $statement->execute();
+
+        $encontrou = $statement->fetch(PDO::FETCH_OBJ);
+
+
+        if($encontrou > 0){
+            $statement = $pdo->prepare("UPDATE tb_user SET resetar=:resetar, senha=:senha WHERE iduser =:iduser;");
+
+            $statement->bindValue(":resetar",  true);
+            $statement->bindValue(":senha",  sha1(123));
+            $statement->bindValue(":iduser",  $encontrou->iduser);
+            $statement->execute();
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+
+    public function recuperaSenha($login, $email){
+        //carrega o banco
+        global $pdo;
+
+        $sql = "SELECT login,email_user FROM tb_user WHERE login=:login AND email_user =:email ";
+        $statement = $pdo->prepare($sql);
+        $statement->bindValue(":login", $login);
+        $statement->bindValue(":email", $email);
+
+        $statement->execute();
+
+        $encontrou = $statement->fetch(PDO::FETCH_OBJ);
+
+
+        if($encontrou > 0){
+            $statement = $pdo->prepare("UPDATE tb_user SET resetar=:resetar, senha=:senha WHERE iduser =:iduser;");
+
+            $statement->bindValue(":resetar",  true);
+            $statement->bindValue(":senha",  sha1(123));
+            $statement->bindValue(":iduser",  $encontrou->iduser);
+            $statement->execute();
+            return true;
+        }else{
+            return false;
+        }
+    }
+
 
     public function pagedTable()
     {
@@ -136,7 +192,6 @@ class userDao
                 <th style='text-align: center; font-weight: bolder;'>Identifier</th>
                 <th style='text-align: center; font-weight: bolder;'>Name</th>
                 <th style='text-align: center; font-weight: bolder;'>Login</th>
-                <th style='text-align: center; font-weight: bolder;'>Password</th>
                 <th style='text-align: center; font-weight: bolder;'>Status</th> 
                  <th style='text-align: center; font-weight: bolder;'>Email</th>
                 <th style='text-align: center; font-weight: bolder;' colspan='2'>Actions</th>
@@ -147,10 +202,12 @@ class userDao
                 echo"<tr>
                 <td style='text-align: center'>$user->id_user</td>
                 <td style='text-align: center'>$user->name_user</td>
-                <td style='text-align: center'>$user->login</td>
-                <td style='text-align: center'>$user->password</td>
-                <td style='text-align: center'>$user->status</td>
-                <td style='text-align: center'>$user->email_user</td>
+                <td style='text-align: center'>$user->login</td>";
+                if($user->status == 1)
+                    echo"<td style='text-align: center'>Administrator</td>";
+                if($user->status == 0)
+                    echo"<td style='text-align: center'>User</td>";
+                echo"<td style='text-align: center'>$user->email_user</td>
                 <td style='text-align: center'><a href='?act=upd&id_user=$user->id_user' title='Alterar'><i class='ti-reload'></i></a></td>
                 <td style='text-align: center'><a href='?act=del&id_user=$user->id_user' title='Remover'><i class='ti-close'></i></a></td>
                </tr>";
@@ -243,7 +300,6 @@ class userDao
                 <th style='text-align: center; font-weight: bolder;'>Identificador</th>
                 <th style='text-align: center; font-weight: bolder;'>Nome</th>
                 <th style='text-align: center; font-weight: bolder;'>Login</th>
-                <th style='text-align: center; font-weight: bolder;'>Senha</th>
                 <th style='text-align: center; font-weight: bolder;'>Status</th>
                 <th style='text-align: center; font-weight: bolder;'>Email</th>
                </tr>
@@ -253,13 +309,15 @@ class userDao
                 echo"<tr>
                 <td style='text-align: center'>$user->id_user</td>
                 <td style='text-align: center'>$user->name_user</td>
-                <td style='text-align: center'>$user->login</td>
-                <td style='text-align: center'>$user->password</td>
-                <td style='text-align: center'>$user->status</td>
-                <td style='text-align: center'>$user->email_user</td>
+                <td style='text-align: center'>$user->login</td>";
+                if($user->status == 1)
+                    echo "<td style='text-align: center'>Administrator</td>";
+                if($user->status == 0)
+                    echo "<td style='text-align: center'>User</td>";
+                echo"<td style='text-align: center'>$user->email_user</td>                               
                </tr>";
             endforeach;
-            echo "
+            echo"
             </tbody>
      </table>
 

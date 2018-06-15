@@ -15,8 +15,8 @@ $email_user= null;
 try {
     $statement = $pdo->prepare("SELECT id_user, name_user, login, password, status, email_user  FROM tb_user WHERE login = :login and password = :password; ");
     $statement->bindValue(":login", $loginInserido);
-    $statement->bindValue(":password", $passwordInserido);
-    /*$statement->bindValue(":password", sha1($passwordInserido));*/
+    /*$statement->bindValue(":password", $passwordInserido);*/
+    $statement->bindValue(":password", sha1($passwordInserido));
     if ($statement->execute()) {
         $rs = $statement->fetch(PDO::FETCH_OBJ);
 
@@ -27,7 +27,10 @@ try {
         $status = $rs->status;
         $email_user =$rs->email_user;
 
-        if( $loginInserido != null and $passwordInserido != null and $loginInserido == $login and $passwordInserido == $password )
+
+        echo "password: ".$password;
+
+        if( $loginInserido != null and $passwordInserido != null and $loginInserido == $login and sha1($passwordInserido) == $password )
         {
             $_SESSION['id_user'] = $id_user;
             $_SESSION['name_user'] = $name_user;

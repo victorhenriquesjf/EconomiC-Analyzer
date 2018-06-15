@@ -90,7 +90,7 @@ class Template
             </div>
 
             <ul class=\"nav\">
-                <li class=\"active\">
+                <li>
                     <a href=\"dashboard.php\">
                         <i class=\"ti-panel\"></i>
                         <p>Dashboard</p>
@@ -187,7 +187,10 @@ class Template
                         <span class=\"icon-bar bar3\"></span>
                     </button>
                     <a class=\"navbar-brand\" href=\"#\">General Information</a>
-                </div>
+                </div>     
+                <div style='text-align: right'>
+                    <a class='btn btn-success'  href=\"sair.php\">Logout</a>
+                </div>           
                 <div class=\"collapse navbar-collapse\">
                     <ul class=\"nav navbar-nav navbar-right\">
                         <!--li>
@@ -218,9 +221,11 @@ class Template
                             </a>
                         </li-->
                     </ul>
-
+                      
                 </div>
+                
             </div>
+            
         </nav>";
 
     }

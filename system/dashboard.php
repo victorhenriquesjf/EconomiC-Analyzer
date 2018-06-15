@@ -1,13 +1,17 @@
 <?php
 
 require_once "classes/template.php";
+require_once "dao/beneficiariesDAO.php";
+require_once "dao/paymentsDAO.php";
 
 $template = new Template();
+$beneficiariesDAO = new beneficiariesDAO();
+$paymentsDAO = new paymentsDAO();
+
+$result = $paymentsDAO->payLastMonth()["paySum"]  /  $paymentsDAO->payLastMonth()["qnt"];
 
 $template->header();
-
 $template->sidebar();
-
 $template->mainpanel();
 
 ?>
@@ -27,7 +31,7 @@ $template->mainpanel();
                             <div class="col-xs-7">
                                 <div class="numbers">
                                     <p>Payments</p>
-                                    000
+                                    <p style="font-size: 60%"><?php echo '<br/>R$'. number_format($paymentsDAO->sumAllPayments()['payToal'], 2, ',', ' '); ?></p>
                                 </div>
                             </div>
                         </div>
@@ -52,7 +56,7 @@ $template->mainpanel();
                             <div class="col-xs-7">
                                 <div class="numbers">
                                     <p>Payments</p>
-                                    R$0,00
+                                    <p style="font-size: 60%"><?php echo '<br/>R$'. number_format($paymentsDAO->payLastMonth()["db_value"], 2, ',', ' '); ?></p >
                                 </div>
                             </div>
                         </div>
@@ -77,7 +81,7 @@ $template->mainpanel();
                             <div class="col-xs-7">
                                 <div class="numbers">
                                     <p>Average</p>
-                                    R$0,00
+                                    <p style="font-size: 60%"><?php echo '<br/>R$'. number_format($result, 2, ',', ' '); ?></p>
                                 </div>
                             </div>
                         </div>
@@ -102,7 +106,7 @@ $template->mainpanel();
                             <div class="col-xs-7">
                                 <div class="numbers">
                                     <p>Beneficiaries</p>
-                                    00
+                                    <p style="font-size: 60%"><?php echo '<br/>'.$beneficiariesDAO->countAll();?></p>
                                 </div>
                             </div>
                         </div>
@@ -125,16 +129,13 @@ $template->mainpanel();
                         <p class="category">Every year</p>
                     </div>
                     <div class="content">
-                        <div id="chartHours" class="ct-chart"></div>
+                        <div id="chartHours" >
+                            <img alt="" src="graficos/beneficiarioMesAno_grafico-IMAGEM.php" title="">
+                        </div>
                         <div class="footer">
-                            <div class="chart-legend">
-                                <i class="fa fa-circle text-info"></i> Value
-                                <i class="fa fa-circle text-danger"></i> Value
-                                <i class="fa fa-circle text-warning"></i> Value
-                            </div>
                             <hr>
                             <div class="stats">
-                                <i class="ti-info-alt"></i> Historic Serie | <i class="ti-export"></i><a> Export PDF</a>
+                                <a href="graficos/beneficiarioMesAno_grafico.php" target="_blank">  Export PDF</a>
                             </div>
                         </div>
                     </div>
@@ -142,46 +143,40 @@ $template->mainpanel();
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <div class="card">
                     <div class="header">
                         <h4 class="title">Beneficiaries by state</h4>
                         <p class="category">Monthly update</p>
                     </div>
                     <div class="content">
-                        <div id="chartPreferences" class="ct-chart ct-perfect-fourth"></div>
+                        <div id="chartPreferences">
+                            <img alt="" src="graficos/beneficiarioMesEstado_grafico-IMAGEM.php" title="">
+                        </div>
 
                         <div class="footer">
-                            <div class="chart-legend">
-                                <i class="fa fa-circle text-info"></i> Value
-                                <i class="fa fa-circle text-danger"></i> Value
-                                <i class="fa fa-circle text-warning"></i> Value
-                            </div>
                             <hr>
                             <div class="stats">
-                                <i class="ti-timer"></i> Total | <i class="ti-export"></i><a> Export PDF</a>
+                                <a href="graficos/beneficiarioMesEstado_grafico.php" target="_blank"> Export PDF</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <div class="card ">
                     <div class="header">
                         <h4 class="title">Values per state</h4>
                         <p class="category">Monthly update</p>
                     </div>
                     <div class="content">
-                        <div id="chartActivity" class="ct-chart"></div>
+                        <div id="chartActivity">
+                            <img alt="" src="graficos/valoreMesEstado_grafico-IMAGEM.php" title="">
+                        </div>
 
                         <div class="footer">
-                            <div class="chart-legend">
-                                <i class="fa fa-circle text-info"></i> Value
-                                <i class="fa fa-circle text-warning"></i> Value
-                            </div>
-                            <hr>
                             <div class="stats">
-                                <i class="ti-check"></i> Last Month | <i class="ti-export"></i><a> Export PDF</a>
+                                <a href="graficos/valoreMesEstado_grafico.php" target="_blank"> Export PDF</a>
                             </div>
                         </div>
                     </div>

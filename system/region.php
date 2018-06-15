@@ -32,15 +32,14 @@ if (isset($_REQUEST["act"]) && $_REQUEST["act"] == "upd" && $id != "") {
 
     $region = new region($id, '');
 
-    $resultado = $object->atualizar($region);
-    $str_nis = $resultado->getStrNis();
-    $str_name_person = $resultado->getStrNamePerson();
+    $resultado = $object->update($region);
+    $str_name_region = $resultado->getStrNameRegion();
 
 }
 
 if (isset($_REQUEST["act"]) && $_REQUEST["act"] == "save" && $str_name_region!= "") {
     $region = new region($id, $str_name_region);
-    $msg = $object->salvar($region);
+    $msg = $object->save($region);
     $id = null;
     $str_name_region = null;
 
@@ -48,7 +47,7 @@ if (isset($_REQUEST["act"]) && $_REQUEST["act"] == "save" && $str_name_region!= 
 
 if (isset($_REQUEST["act"]) && $_REQUEST["act"] == "del" && $id != "") {
     $region = new region($id, '');
-    $msg = $object->remover($region);
+    $msg = $object->delete($region);
     $id = null;
 }
 

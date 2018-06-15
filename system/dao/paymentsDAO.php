@@ -26,11 +26,11 @@ class paymentsDAO
             if ($payment->getIdPayment() != "") {
                 $statement = $pdo->prepare("UPDATE tb_payments SET tb_city_id_city=:tb_city_id_city, tb_functions_id_function=:tb_functions_id_function, tb_subfunctions_id_subfunction=:tb_subfunctions_id_subfunction, 
                                                       tb_program_id_program=:tb_program_id_program, tb_action_id_action=:tb_action_id_action, tb_beneficiaries_id_beneficiaries=:tb_beneficiaries_id_beneficiaries, 
-                                                      tb_source_id_source=:tb_source_id_source, tb_files_id_file=:tb_files_id_file, db_value=:db_value WHERE id_payment = :id;");
+                                                      tb_source_id_source=:tb_source_id_source, tb_files_id_file=:tb_files_id_file,int_month,:int_month, int_year:int_year, db_value=:db_value WHERE id_payment = :id;");
                 $statement->bindValue(":id", $payment->getIdPayment());
             } else {
-                $statement = $pdo->prepare("INSERT INTO tb_city (tb_city_id_city, tb_functions_id_function, tb_subfunctions_id_subfunction, tb_program_id_program, tb_action_id_action, tb_beneficiaries_id_beneficiaries, tb_source_id_source, tb_files_id_file, db_value) 
-                                                      VALUES (:tb_city_id_city, :tb_functions_id_function, :tb_subfunctions_id_subfunction, :tb_program_id_program, :tb_action_id_action, :tb_beneficiaries_id_beneficiaries, :tb_source_id_source, :tb_files_id_file, :db_value)");
+                $statement = $pdo->prepare("INSERT INTO tb_payments (tb_city_id_city, tb_functions_id_function, tb_subfunctions_id_subfunction, tb_program_id_program, tb_action_id_action, tb_beneficiaries_id_beneficiaries, tb_source_id_source, tb_files_id_file, int_month, int_year, db_value) 
+                                                      VALUES (:tb_city_id_city, :tb_functions_id_function, :tb_subfunctions_id_subfunction, :tb_program_id_program, :tb_action_id_action, :tb_beneficiaries_id_beneficiaries, :tb_source_id_source, :tb_files_id_file, :int_month, :int_year, :db_value)");
             }
             $statement->bindValue(":tb_city_id_city",$payment->getTbCityIdCity());
             $statement->bindValue(":tb_functions_id_function",$payment->getTbFunctionsIdFunction());
@@ -40,6 +40,8 @@ class paymentsDAO
             $statement->bindValue(":tb_beneficiaries_id_beneficiaries",$payment->getTbBeneficiariesIdBeneficiaries());
             $statement->bindValue(":tb_source_id_source",$payment->getTbSourceIdSource());
             $statement->bindValue(":tb_files_id_file",$payment->getTbFilesIdFile());
+            $statement->bindValue(":int_month",$payment->getIntMonth());
+            $statement->bindValue(":int_year",$payment->getIntYear());
             $statement->bindValue(":db_value",$payment->getDbValue());
 
             if ($statement->execute()) {
@@ -60,7 +62,7 @@ class paymentsDAO
         global $pdo;
         try {
             $statement = $pdo->prepare("SELECT id_payment, tb_city_id_city, tb_functions_id_function, tb_subfunctions_id_subfunction, tb_program_id_program, 
-                                                  tb_action_id_action, tb_beneficiaries_id_beneficiaries, tb_source_id_source, tb_files_id_file, db_value 
+                                                  tb_action_id_action, tb_beneficiaries_id_beneficiaries, tb_source_id_source, tb_files_id_file,getIntMonth,getIntYear, db_value 
                                                   FROM tb_payments WHERE id_payment = :id");
             $statement->bindValue(":id", $payment->getIdPayment());
             if ($statement->execute()) {
@@ -74,6 +76,8 @@ class paymentsDAO
                 $payment->setTbBeneficiariesIdBeneficiaries($rs->tb_beneficiaries_id_beneficiaries);
                 $payment->setTbSourceIdSource($rs->tb_source_id_source);
                 $payment->setTbFilesIdFile($rs->tb_files_id_file);
+                $payment->setDbValue($rs->getIntMonth);
+                $payment->setDbValue($rs->getIntYear);
                 $payment->setDbValue($rs->db_value);
 
                 return $payment;
@@ -161,19 +165,91 @@ class paymentsDAO
      </thead>
      <tbody>";
             foreach ($dados as $paym):
+                $statement = $pdo->prepare("SELECT str_name_city FROM tb_city WHERE id_city = :id");
+                $statement->bindValue(":id", $paym->tb_city_id_city);
+                if ($statement->execute()) {
+                    $rs = $statement->fetch(PDO::FETCH_OBJ);
+                    $str_name_city = $rs->str_name_city;
+                } else {
+                    throw new PDOException("Erro na declaração SQL !");
+                }
+
+                $statement = $pdo->prepare("SELECT str_name_function FROM tb_functions WHERE id_function = :id");
+                $statement->bindValue(":id", $paym->tb_functions_id_function);
+                if ($statement->execute()) {
+                    $rs = $statement->fetch(PDO::FETCH_OBJ);
+                    $tb_functions_id_function = $rs->str_name_function;
+                } else {
+                    throw new PDOException("Erro na declaração SQL !");
+                }
+
+                $statement = $pdo->prepare("SELECT str_name_subfunction FROM tb_subfunctions WHERE id_subfunction = :id");
+                $statement->bindValue(":id", $paym->tb_subfunctions_id_subfunction);
+                if ($statement->execute()) {
+                    $rs = $statement->fetch(PDO::FETCH_OBJ);
+                    $tb_subfunctions_id_subfunction = $rs->str_name_subfunction;
+                } else {
+                    throw new PDOException("Erro na declaração SQL !");
+                }
+
+                $statement = $pdo->prepare("SELECT str_name_program FROM tb_program WHERE id_program = :id");
+                $statement->bindValue(":id", $paym->tb_program_id_program);
+                if ($statement->execute()) {
+                    $rs = $statement->fetch(PDO::FETCH_OBJ);
+                    $tb_program_id_program = $rs->str_name_program;
+                } else {
+                    throw new PDOException("Erro na declaração SQL !");
+                }
+
+                $statement = $pdo->prepare("SELECT str_name_action FROM tb_action WHERE id_action = :id");
+                $statement->bindValue(":id", $paym->tb_action_id_action);
+                if ($statement->execute()) {
+                    $rs = $statement->fetch(PDO::FETCH_OBJ);
+                    $tb_action_id_action = $rs->str_name_action;
+                } else {
+                    throw new PDOException("Erro na declaração SQL !");
+                }
+
+                $statement = $pdo->prepare("SELECT str_name_person FROM tb_beneficiaries WHERE id_beneficiaries = :id");
+                $statement->bindValue(":id", $paym->tb_beneficiaries_id_beneficiaries);
+                if ($statement->execute()) {
+                    $rs = $statement->fetch(PDO::FETCH_OBJ);
+                    $tb_beneficiaries_id_beneficiaries = $rs->str_name_person;
+                } else {
+                    throw new PDOException("Erro na declaração SQL !");
+                }
+
+                $statement = $pdo->prepare("SELECT str_goal FROM tb_source WHERE id_source = :id");
+                $statement->bindValue(":id", $paym->tb_source_id_source);
+                if ($statement->execute()) {
+                    $rs = $statement->fetch(PDO::FETCH_OBJ);
+                    $tb_source_id_source = $rs->str_goal;
+                } else {
+                    throw new PDOException("Erro na declaração SQL !");
+                }
+
+                $statement = $pdo->prepare("SELECT str_name_file FROM tb_files WHERE id_file = :id");
+                $statement->bindValue(":id", $paym->tb_files_id_file);
+                if ($statement->execute()) {
+                    $rs = $statement->fetch(PDO::FETCH_OBJ);
+                    $tb_files_id_file = $rs->str_name_file;
+                } else {
+                    throw new PDOException("Erro na declaração SQL !");
+                }
+
                 echo "<tr>
-        <td style='text-align: center'>$paym->id_payment</td>
-        <td style='text-align: center'>$paym->tb_city_id_city</td>
-        <td style='text-align: center'>$paym->tb_functions_id_function</td>
-        <td style='text-align: center'>$paym->tb_subfunctions_id_subfunction</td>
-        <td style='text-align: center'>$paym->tb_program_id_program</td>
-        <td style='text-align: center'>$paym->tb_action_id_action</td>
-        <td style='text-align: center'>$paym->tb_beneficiaries_id_beneficiaries</td>
-        <td style='text-align: center'>$paym->tb_source_id_source</td>
-        <td style='text-align: center'>$paym->tb_files_id_file</td>
-        <td style='text-align: center'>$paym->db_value</td>
-        <td style='text-align: center'><a href='?act=upd&id=$paym->id_payment' title='Alterar'><i class='ti-reload'></i></a></td>
-        <td style='text-align: center'><a href='?act=del&id=$paym->id_payment' title='Remover'><i class='ti-close'></i></a></td>
+                <td style='text-align: center'>$paym->id_payment</td>
+                <td style='text-align: center'>$str_name_city</td>
+                <td style='text-align: center'>$tb_functions_id_function</td>
+                <td style='text-align: center'>$tb_subfunctions_id_subfunction</td>
+                <td style='text-align: center'>$tb_program_id_program</td>
+                <td style='text-align: center'>$tb_action_id_action</td>
+                <td style='text-align: center'>$tb_beneficiaries_id_beneficiaries</td>
+                <td style='text-align: center'>$tb_source_id_source</td>
+                <td style='text-align: center'>$tb_files_id_file</td>
+                <td style='text-align: center'>$paym->db_value</td>
+                <td style='text-align: center'><a href='?act=upd&id_payment=$paym->id_payment' title='Alterar'><i class='ti-reload'></i></a></td>
+                <td style='text-align: center'><a href='?act=del&id_payment=$paym->id_payment' title='Remover'><i class='ti-close'></i></a></td>
        </tr>";
             endforeach;
             echo "
@@ -219,14 +295,26 @@ class paymentsDAO
         }
     }
 
-    public function findAllBeneficiariesCity()
+    public function payLastMonth()
     {
         global $pdo;
         try {
-            $statement = $pdo->prepare('SELECT id_beneficiaries, str_name_person, str_nis, id_city, str_name_city, str_cod_siafi_city, tb_state_id_state FROM db_eca.tb_payments, db_eca.tb_city, db_eca.tb_beneficiaries WHERE tb_beneficiaries.id_beneficiaries = tb_payments.tb_beneficiaries_id_beneficiaries AND tb_payments.tb_city_id_city = tb_city.id_city ORDER BY tb_city.str_name_city, tb_beneficiaries.str_name_person;');
+            $sql = 'SELECT COUNT(id_payment) qnt, 
+                    SUM(db_value) paySum, db_value
+                    FROM tb_payments 
+                    GROUP BY int_month, int_year 
+                    ORDER BY int_year DESC, int_month DESC LIMIT 1;';
+            $statement = $pdo->prepare($sql);
             if ($statement->execute()) {
-                $listaBeneficiariesCity = $statement->fetchAll(PDO::FETCH_OBJ);
-                return $listaBeneficiariesCity;
+                $st = $statement->fetchAll(PDO::FETCH_OBJ);
+                $payLastMonth = array(
+                    'qnt' => $st[0]->qnt,
+                    'paySum' => $st[0]->paySum,
+                    'db_value' => $st[0]->db_value
+                );
+
+                return $payLastMonth;
+
             }else {
                 throw new PDOException("<script> alert('Não foi possível executar a declaração sql'); </script>");
             }
@@ -235,23 +323,17 @@ class paymentsDAO
         }
     }
 
-    public function findAllPayments()
+    public function sumAllPayments()
     {
         global $pdo;
         try {
-            $statement = $pdo->prepare('SELECT tb_payments.id_payment idPayment, tb_city.str_name_city nameCity, db_eca.tb_functions.str_name_function nameFunction, tb_subfunctions.str_name_subfunction nameSubfunction, tb_program.str_name_program nameProgram, tb_action.str_name_action nameAction, tb_beneficiaries.str_name_person namePerson, tb_source.str_goal Goal, tb_files.str_name_file nameFile
-                                                  FROM db_eca.tb_payments, tb_city, db_eca.tb_functions, tb_beneficiaries, tb_action, tb_program, tb_subfunctions, tb_source, tb_files 
-                                                  where tb_payments.tb_city_id_city = tb_city.id_city 
-                                                  AND tb_payments.tb_beneficiaries_id_beneficiaries = tb_beneficiaries.id_beneficiaries 
-                                                  AND tb_payments.tb_action_id_action = tb_action.id_action 
-                                                  AND tb_payments.tb_program_id_program = tb_program.id_program 
-                                                  AND tb_payments.tb_subfunctions_id_subfunction = tb_subfunctions.id_subfunction 
-                                                  AND tb_payments.tb_source_id_source = tb_source.id_source 
-                                                  AND tb_payments.tb_functions_id_function = db_eca.tb_functions.id_function 
-                                                  AND tb_payments.tb_files_id_file = tb_files.id_file;');
+            $statement = $pdo->prepare('SELECT SUM(db_value) payToal FROM tb_payments;');
             if ($statement->execute()) {
-                $listaPayments = $statement->fetchAll(PDO::FETCH_OBJ);
-                return $listaPayments;
+                $rs = $statement->fetchAll(PDO::FETCH_OBJ);
+                $sumAllPayments = array(
+                    'payToal' => $rs[0]->payToal
+                );
+                return $sumAllPayments;
             }else {
                 throw new PDOException("<script> alert('Erro: Não foi possível executar a declaração sql'); </script>");
             }
@@ -260,68 +342,8 @@ class paymentsDAO
         }
     }
 
-    public function findAllPaymentsCity()
-    {
-        global $pdo;
-        try {
-            $statement = $pdo->prepare('SELECT SUM (db_value) totalSum, tb_city.str_name_city nameCity, 
-                                                  COUNT (DISTINCT db_eca.tb_payments.tb_beneficiaries_id_beneficiaries) counter 
-                                                  FROM db_eca.tb_payments, tb_city 
-                                                  WHERE tb_payments.id_payment = tb_city.id_city 
-                                                  GROUP BY tb_payments.tb_city_id_city 
-                                                  ORDER BY SUM (db_value) DESC;');
-            if ($statement->execute()) {
-                $listaPaymentsCity = $statement->fetchAll(PDO::FETCH_OBJ);
-                return $listaPaymentsCity;
-            }else {
-                throw new PDOException("<script> alert('Erro: Não foi possível executar a declaração sql'); </script>");
-            }
-        }catch (PDOException $erro) {
-            return "Erro: " . $erro->getMessage();
-        }
-    }
 
-    public function findAllPaymentsRegion()
-    {
-        global $pdo;
-        try {
-            $statement = $pdo->prepare('SELECT SUM (db_value) totalValue, str_name_region nameRegion 
-                                                  FROM db_eca.tb_payments, tb_city, tb_state, tb_region 
-                                                  WHERE tb_payments.id_payment = tb_city.id_city 
-                                                  AND tb_city.tb_state_id_state = tb_state.id_state 
-                                                  AND tb_state.tb_region_id_region = tb_region.id_region 
-                                                  GROUP BY tb_region.id_region 
-                                                  ORDER BY tb_state.str_name;');
-            if ($statement->execute()) {
-                $listaPaymentsRegion = $statement->fetchAll(PDO::FETCH_OBJ);
-                return $listaPaymentsRegion;
-            }else {
-                throw new PDOException("<script> alert('Erro: Não foi possível executar a declaração sql'); </script>");
-            }
-        }catch (PDOException $erro) {
-            return "Erro: " . $erro->getMessage();
-        }
-    }
 
-    public function findAllPaymentsState()
-    {
-        global $pdo;
-        try {
-            $statement = $pdo->prepare('SELECT SUM (db_value) totalValue, str_name 
-                                                  FROM db_eca.tb_payments, tb_city, tb_state 
-                                                  WHERE tb_payments.id_payment = tb_city.id_city 
-                                                  AND tb_city.tb_state_id_state = tb_state.id_state 
-                                                  GROUP BY tb_state.id_state 
-                                                  ORDER BY tb_state.str_name;');
-            if ($statement->execute()) {
-                $listaPaymentsState = $statement->fetchAll(PDO::FETCH_OBJ);
-                return $listaPaymentsState;
-            }else {
-                throw new PDOException("<script> alert('Erro: Não foi possível executar a declaração sql'); </script>");
-            }
-        }catch (PDOException $erro) {
-            return "Erro: " . $erro->getMessage();
-        }
-    }
+
 
 }

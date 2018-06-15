@@ -35,6 +35,7 @@ if (isset($_REQUEST["act"]) && $_REQUEST["act"] == "upd" && $id != "") {
     $beneficiaries = new beneficiaries($id, '', '');
 
     $resultado = $object->update($beneficiaries);
+
     $str_nis = $resultado->getStrNis();
     $str_name_person = $resultado->getStrNamePerson();
 
@@ -90,17 +91,23 @@ if (isset($_REQUEST["act"]) && $_REQUEST["act"] == "del" && $id != "") {
                         </form>
 
                         <div  style="display: inline-block; text-align: right; width: 100%">
-                            <table style="border: 0px; -webkit-border-horizontal-spacing: 150px; border-collapse: separate; text-align: center"  >
+                            <table style="border: 0px; -webkit-border-horizontal-spacing: 100px; border-collapse: separate; text-align: center"  >
                                 <tr>
                                     <td>
-                                        <form action="relatorio/beneficiarios_relatorio.php">
+                                        <form action="relatorio/beneficiarios_relatorio.php"  target="_blank">
                                             <input class="btn btn-success" type="submit" value="Report of all beneficiaries">
                                             <p><br/></p>
                                         </form>
                                     </td>
                                     <td>
-                                        <form action="relatorio/beneficiariosCidade_relatorio.php">
+                                        <form action="relatorio/beneficiariosCidade_relatorio.php" target="_blank">
                                             <input class="btn btn-success" type="submit" value="Report of beneficiaries and cities">
+                                            <p><br/></p>
+                                        </form>
+                                    </td>
+                                    <td>
+                                        <form action="relatorio/totalBeneficiariosAuxilio_relatorio.php" target="_blank">
+                                            <input class="btn btn-success" type="submit" value="Beneficiaries help">
                                             <p><br/></p>
                                         </form>
                                     </td>

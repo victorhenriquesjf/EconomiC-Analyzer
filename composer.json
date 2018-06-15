@@ -1,0 +1,19 @@
+{
+    "name": "economic/trabalho",
+    "description": "Libs do economic",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "VictorAlmeida",
+            "email": "vitinhoalmeidajf@hotmail.com"
+        }
+    ],
+    "require": {
+		"phpmailer/phpmailer": "^6.0",
+        "mpdf/mpdf": "^7.1",
+        "davefx/phplot": "^6.2"
+		
+	
+	
+	}
+}

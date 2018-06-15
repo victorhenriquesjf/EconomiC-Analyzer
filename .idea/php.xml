@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/setasign/fpdi" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/vendor/davefx/phplot" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/mpdf/tmp" />
+      <path value="$PROJECT_DIR$/vendor/mpdf/font" />
+      <path value="$PROJECT_DIR$/vendor/mpdf/mpdfi" />
+      <path value="$PROJECT_DIR$/vendor/mpdf/utils" />
+      <path value="$PROJECT_DIR$/vendor/mpdf/classes" />
+      <path value="$PROJECT_DIR$/vendor/mpdf/ttfonts" />
+      <path value="$PROJECT_DIR$/vendor/mpdf/examples" />
+      <path value="$PROJECT_DIR$/vendor/mpdf/includes" />
+      <path value="$PROJECT_DIR$/vendor/mpdf/patterns" />
+      <path value="$PROJECT_DIR$/vendor/mpdf/ttfontdata" />
+      <path value="$PROJECT_DIR$/vendor/mpdf/graph_cache" />
+      <path value="$PROJECT_DIR$/vendor/mpdf/iccprofiles" />
+      <path value="$PROJECT_DIR$/vendor/fpdf/fpdf181" />
+    </include_path>
+  </component>
+</project>

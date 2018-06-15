@@ -2,14 +2,179 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d0a5670-d7f2-46f1-af5b-023a12514a15" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/system/user.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/css/main.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/css/util.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/Linearicons-Free-v1.0.0/icon-font.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/font-awesome-4.7.0/css/font-awesome.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/font-awesome-4.7.0/css/font-awesome.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/font-awesome-4.7.0/less/animated.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/font-awesome-4.7.0/less/bordered-pulled.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/font-awesome-4.7.0/less/core.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/font-awesome-4.7.0/less/fixed-width.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/font-awesome-4.7.0/less/font-awesome.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/font-awesome-4.7.0/less/icons.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/font-awesome-4.7.0/less/larger.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/font-awesome-4.7.0/less/list.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/font-awesome-4.7.0/less/mixins.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/font-awesome-4.7.0/less/path.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/font-awesome-4.7.0/less/rotated-flipped.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/font-awesome-4.7.0/less/screen-reader.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/font-awesome-4.7.0/less/stacked.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/font-awesome-4.7.0/less/variables.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/font-awesome-4.7.0/scss/_animated.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/font-awesome-4.7.0/scss/_core.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/font-awesome-4.7.0/scss/_icons.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/font-awesome-4.7.0/scss/_larger.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/font-awesome-4.7.0/scss/_list.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/font-awesome-4.7.0/scss/_mixins.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/font-awesome-4.7.0/scss/_path.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/font-awesome-4.7.0/scss/_stacked.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/font-awesome-4.7.0/scss/_variables.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/font-awesome-4.7.0/scss/font-awesome.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/iconic/css/material-design-iconic-font.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/iconic/css/material-design-iconic-font.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/iconic/fonts/Material-Design-Iconic-Font.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/iconic/fonts/Material-Design-Iconic-Font.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/iconic/fonts/Material-Design-Iconic-Font.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/iconic/fonts/Material-Design-Iconic-Font.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/poppins/Poppins-Black.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/poppins/Poppins-BlackItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/poppins/Poppins-Bold.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/poppins/Poppins-BoldItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/poppins/Poppins-ExtraBold.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/poppins/Poppins-ExtraBoldItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/poppins/Poppins-ExtraLight.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/poppins/Poppins-ExtraLightItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/poppins/Poppins-Italic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/poppins/Poppins-Light.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/poppins/Poppins-LightItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/poppins/Poppins-Medium.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/poppins/Poppins-MediumItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/poppins/Poppins-Regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/poppins/Poppins-SemiBold.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/poppins/Poppins-SemiBoldItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/poppins/Poppins-Thin.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/poppins/Poppins-ThinItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/ubuntu/UFL.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/ubuntu/Ubuntu-Bold.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/ubuntu/Ubuntu-BoldItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/ubuntu/Ubuntu-Italic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/ubuntu/Ubuntu-Light.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/ubuntu/Ubuntu-LightItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/ubuntu/Ubuntu-Medium.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/ubuntu/Ubuntu-MediumItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/fonts/ubuntu/Ubuntu-Regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/images/bg-01.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/images/icons/favicon.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/js/main.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/vendor/animate/animate.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/vendor/animsition/css/animsition.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/vendor/animsition/css/animsition.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/vendor/animsition/js/animsition.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/vendor/animsition/js/animsition.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/vendor/bootstrap/css/bootstrap-grid.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/vendor/bootstrap/css/bootstrap-grid.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/vendor/bootstrap/css/bootstrap-grid.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/vendor/bootstrap/css/bootstrap-grid.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/vendor/bootstrap/css/bootstrap-reboot.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/vendor/bootstrap/css/bootstrap-reboot.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/vendor/bootstrap/css/bootstrap-reboot.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/vendor/bootstrap/css/bootstrap-reboot.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/vendor/bootstrap/css/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/vendor/bootstrap/css/bootstrap.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/vendor/bootstrap/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/vendor/bootstrap/css/bootstrap.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/vendor/bootstrap/js/bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/vendor/bootstrap/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/vendor/bootstrap/js/popper.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/vendor/bootstrap/js/popper.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/vendor/bootstrap/js/tooltip.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/vendor/countdowntime/countdowntime.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/vendor/css-hamburgers/hamburgers.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/vendor/css-hamburgers/hamburgers.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/vendor/daterangepicker/daterangepicker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/vendor/daterangepicker/daterangepicker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/vendor/daterangepicker/moment.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/vendor/daterangepicker/moment.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/vendor/jquery/jquery-3.2.1.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/vendor/perfect-scrollbar/perfect-scrollbar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/vendor/perfect-scrollbar/perfect-scrollbar.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/vendor/select2/select2.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/vendor/select2/select2.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/vendor/select2/select2.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/vendor/select2/select2.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/dao/reportDAO.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/graficos/beneficiarioMesAno_grafico.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/graficos/beneficiarioMesEstado_grafico.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/graficos/valoreMesEstado_grafico.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/PHPlot/COPYING" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/PHPlot/ChangeLog" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/PHPlot/Makefile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/PHPlot/NEWS.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/PHPlot/NEWS_part1.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/PHPlot/README.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/PHPlot/contrib/README.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/PHPlot/contrib/color_range.example.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/PHPlot/contrib/color_range.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/PHPlot/contrib/color_range.test1.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/PHPlot/contrib/color_range.test2.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/PHPlot/contrib/data_table.example1.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/PHPlot/contrib/data_table.example2.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/PHPlot/contrib/data_table.example3.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/PHPlot/contrib/data_table.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/PHPlot/contrib/prune_labels.example.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/PHPlot/contrib/prune_labels.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/PHPlot/contrib/prune_labels.test.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/PHPlot/phplot.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/libs/PHPlot/rgb.inc.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/relatorio/beneficiariosCidade_relatorio.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/relatorio/beneficiarios_relatorio.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/relatorio/pagamentosCidade_relatorio.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/relatorio/pagamentosEstado_relatorio.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/relatorio/pagamentosRegiao_relatorio.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/relatorio/pagamentos_relatorio.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/relatorio/totalBeneficiariosAuxilio_relatorio.php" />
+      <change beforePath="$PROJECT_DIR$/.idea/EconomiC-Analyzer.iml" afterPath="$PROJECT_DIR$/.idea/EconomiC-Analyzer.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/db_ecaNovo.sql" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/system/assets/css/paper-dashboard.css" afterPath="$PROJECT_DIR$/system/assets/css/paper-dashboard.css" />
+      <change beforePath="$PROJECT_DIR$/system/assets/css/themify-icons.css" afterPath="$PROJECT_DIR$/system/assets/css/themify-icons.css" />
+      <change beforePath="$PROJECT_DIR$/system/assets/img/logo.png" afterPath="$PROJECT_DIR$/system/assets/img/logo.png" />
+      <change beforePath="$PROJECT_DIR$/system/beneficiaries.php" afterPath="$PROJECT_DIR$/system/beneficiaries.php" />
+      <change beforePath="$PROJECT_DIR$/system/classes/payments.php" afterPath="$PROJECT_DIR$/system/classes/payments.php" />
       <change beforePath="$PROJECT_DIR$/system/classes/template.php" afterPath="$PROJECT_DIR$/system/classes/template.php" />
-      <change beforePath="$PROJECT_DIR$/system/classes/user.php" afterPath="$PROJECT_DIR$/system/classes/user.php" />
+      <change beforePath="$PROJECT_DIR$/system/dao/beneficiariesDAO.php" afterPath="$PROJECT_DIR$/system/dao/beneficiariesDAO.php" />
+      <change beforePath="$PROJECT_DIR$/system/dao/paymentsDAO.php" afterPath="$PROJECT_DIR$/system/dao/paymentsDAO.php" />
       <change beforePath="$PROJECT_DIR$/system/dao/userDao.php" afterPath="$PROJECT_DIR$/system/dao/userDao.php" />
-      <change beforePath="$PROJECT_DIR$/system/db/conexao.php" afterPath="$PROJECT_DIR$/system/db/conexao.php" />
-      <change beforePath="$PROJECT_DIR$/system/index_tela.php" afterPath="$PROJECT_DIR$/system/index.php" />
-      <change beforePath="$PROJECT_DIR$/system/login_tela.php" afterPath="$PROJECT_DIR$/system/login.php" />
+      <change beforePath="$PROJECT_DIR$/system/dashboard.php" afterPath="$PROJECT_DIR$/system/dashboard.php" />
+      <change beforePath="$PROJECT_DIR$/system/logar.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/system/login.php" afterPath="$PROJECT_DIR$/system/login.php" />
+      <change beforePath="$PROJECT_DIR$/system/payments.php" afterPath="$PROJECT_DIR$/system/payments.php" />
+      <change beforePath="$PROJECT_DIR$/system/recEmail.php" afterPath="$PROJECT_DIR$/system/recEmail.php" />
+      <change beforePath="$PROJECT_DIR$/system/recuperar.php" afterPath="$PROJECT_DIR$/system/recuperar.php" />
+      <change beforePath="$PROJECT_DIR$/system/region.php" afterPath="$PROJECT_DIR$/system/region.php" />
+      <change beforePath="$PROJECT_DIR$/system/sair.php" afterPath="$PROJECT_DIR$/system/sair.php" />
+      <change beforePath="$PROJECT_DIR$/system/state.php" afterPath="$PROJECT_DIR$/system/state.php" />
+      <change beforePath="$PROJECT_DIR$/system/user.php" afterPath="$PROJECT_DIR$/system/user.php" />
       <change beforePath="$PROJECT_DIR$/system/verificarLogin.php" afterPath="$PROJECT_DIR$/system/verificarLogin.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,23 +184,123 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/system/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="80" lean-forward="true" selection-start-line="4" selection-start-column="80" selection-end-line="4" selection-end-column="80" />
+            <state relative-caret-position="85">
+              <caret line="5" column="72" lean-forward="true" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#center#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="beneficiaries.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system/beneficiaries.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system/classes/template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="519">
+              <caret line="191" column="20" lean-forward="false" selection-start-line="191" selection-start-column="20" selection-end-line="191" selection-end-column="20" />
+              <folding>
+                <marker date="1528819444656" expanded="true" signature="99:1210" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="106:1203" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="1289:2012" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="1333:1994" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="1375:1682" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="1400:1659" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="1430:1633" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="1514:1603" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="1735:1975" ph="..." />
+                <marker date="1528819444656" expanded="false" signature="1757:1763" ph="©" />
+                <marker date="1528819444656" expanded="true" signature="2428:5756" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="2521:5756" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="2536:2805" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="2848:5745" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="2881:3046" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="3078:5730" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="3099:3285" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="3146:3263" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="3306:3485" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="3348:3463" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="3506:3697" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="3555:3675" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="3718:3894" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="3759:3872" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="3915:4100" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="3960:4078" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="4121:4312" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="4169:4290" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="4333:4512" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="4375:4490" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="4533:4715" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="4577:4693" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="4736:4910" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="4776:4888" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="4931:5107" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="4972:5085" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="5128:5306" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="5170:5284" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="5327:5517" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="5371:5495" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="5538:5712" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="5578:5690" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="5838:8299" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="5884:8299" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="5928:8271" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="5974:6414" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="5974:6436" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="6043:6332" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="6471:6488" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="6489:6589" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="6657:8235" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="6720:8189" ph="..." />
+                <marker date="1528819444656" expanded="true" signature="6750:8161" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conexao.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system/db/conexao.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="77" lean-forward="false" selection-start-line="2" selection-start-column="77" selection-end-line="2" selection-end-column="77" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/system/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            <state relative-caret-position="425">
+              <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sair.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system/sair.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -54,12 +319,24 @@
       <find>Alterar</find>
       <find>$auser</find>
       <find>id_user</find>
+      <find>paySum</find>
+      <find>cityDAO</find>
+      <find>beneficiariesDAO</find>
+      <find>$str_nis</find>
+      <find>$id</find>
+      <find>tb_city_id_city</find>
+      <find>$passwd</find>
+      <find>recuperaSenha</find>
+      <find>btn-success</find>
+      <find>General Information</find>
     </findStrings>
     <replaceStrings>
       <replace>$status ==</replace>
       <replace>$_SESSION['status']</replace>
       <replace>$_SESSION['status']=</replace>
       <replace>$user</replace>
+      <replace>$id_state</replace>
+      <replace>$id_payment</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -68,57 +345,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/system/dashboard.php" />
-        <option value="$PROJECT_DIR$/system/index.php" />
-        <option value="$PROJECT_DIR$/system/tb_state.php" />
-        <option value="$PROJECT_DIR$/system/region.php" />
-        <option value="$PROJECT_DIR$/system/action.php" />
-        <option value="$PROJECT_DIR$/system/dao/tb_stateDAO.php" />
-        <option value="$PROJECT_DIR$/system/classes/tb_state.php" />
-        <option value="$PROJECT_DIR$/system/programs.php" />
-        <option value="$PROJECT_DIR$/system/files.php" />
-        <option value="$PROJECT_DIR$/system/beneficiaries.php" />
-        <option value="$PROJECT_DIR$/system/functions.php" />
-        <option value="$PROJECT_DIR$/system/subfunctions.php" />
-        <option value="$PROJECT_DIR$/system/source.php" />
-        <option value="$PROJECT_DIR$/system/city.php" />
-        <option value="$PROJECT_DIR$/system/state.php" />
-        <option value="$PROJECT_DIR$/system/payments.php" />
-        <option value="$PROJECT_DIR$/system/classes/beneficiaries.php" />
-        <option value="$PROJECT_DIR$/system/classes/city.php" />
-        <option value="$PROJECT_DIR$/system/classes/files.php" />
-        <option value="$PROJECT_DIR$/system/classes/functions.php" />
-        <option value="$PROJECT_DIR$/system/classes/payments.php" />
-        <option value="$PROJECT_DIR$/system/classes/programs.php" />
-        <option value="$PROJECT_DIR$/system/classes/region.php" />
-        <option value="$PROJECT_DIR$/system/classes/source.php" />
-        <option value="$PROJECT_DIR$/system/classes/state.php" />
-        <option value="$PROJECT_DIR$/system/classes/subfunctions.php" />
-        <option value="$PROJECT_DIR$/system/dao/actionDAO.php" />
-        <option value="$PROJECT_DIR$/system/dao/cityDAO.php" />
-        <option value="$PROJECT_DIR$/system/dao/functionsDAO.php" />
-        <option value="$PROJECT_DIR$/system/dao/paymentsDAO.php" />
-        <option value="$PROJECT_DIR$/system/dao/programsDAO.php" />
-        <option value="$PROJECT_DIR$/system/dao/regionDAO.php" />
-        <option value="$PROJECT_DIR$/system/dao/sourceDAO.php" />
-        <option value="$PROJECT_DIR$/system/dao/stateDAO.php" />
-        <option value="$PROJECT_DIR$/system/dao/subfunctionsDAO.php" />
-        <option value="$PROJECT_DIR$/system/dao/filesDAO.php" />
-        <option value="$PROJECT_DIR$/system/libs/mpdf/relatorio.php" />
-        <option value="$PROJECT_DIR$/system/libs/mpdf/aluno_relatorio.php" />
-        <option value="$PROJECT_DIR$/system/dao/beneficiariesDAO.php" />
         <option value="$PROJECT_DIR$/system/libs/mpdf/beneficiarios_relatorio.php" />
-        <option value="$PROJECT_DIR$/system/relatorio/beneficiarios_relatorio.php" />
         <option value="$PROJECT_DIR$/system/classes/action.php" />
-        <option value="$PROJECT_DIR$/system/db/conexao.php" />
         <option value="$PROJECT_DIR$/system/index_tela.php" />
         <option value="$PROJECT_DIR$/system/relatorio/user_tela.php" />
         <option value="$PROJECT_DIR$/system/classes/user.php" />
         <option value="$PROJECT_DIR$/system/user_tela.php" />
+        <option value="$PROJECT_DIR$/system/graficos/graficos.php" />
+        <option value="$PROJECT_DIR$/system/dao/beneficiariesDAO.php" />
+        <option value="$PROJECT_DIR$/system/relatorio/beneficiarios_auxilio.php" />
+        <option value="$PROJECT_DIR$/system/index.html" />
+        <option value="$PROJECT_DIR$/system/recuperarvitao.php" />
+        <option value="$PROJECT_DIR$/system/recuperar.php" />
+        <option value="$PROJECT_DIR$/system/relatorio/relatorio01.php" />
+        <option value="$PROJECT_DIR$/system/relatorio/relatorio02.php" />
+        <option value="$PROJECT_DIR$/system/relatorio/relatorio03.php" />
+        <option value="$PROJECT_DIR$/system/relatorio/relatorio04.php" />
+        <option value="$PROJECT_DIR$/system/relatorio/relatorio05.php" />
+        <option value="$PROJECT_DIR$/system/relatorio/relatorio06.php" />
+        <option value="$PROJECT_DIR$/system/relatorio/relatorio07.php" />
+        <option value="$PROJECT_DIR$/system/graficos/beneficiarioMesAno_grafico.php" />
+        <option value="$PROJECT_DIR$/system/graficos/beneficiarioMesEstado_grafico.php" />
+        <option value="$PROJECT_DIR$/system/graficos/valoreMesEstado_grafico.php" />
+        <option value="$PROJECT_DIR$/system/relatorio/totalbeneficiariosauxilio.php" />
+        <option value="$PROJECT_DIR$/system/dao/reportDAO.php" />
+        <option value="$PROJECT_DIR$/system/region.php" />
+        <option value="$PROJECT_DIR$/system/state.php" />
+        <option value="$PROJECT_DIR$/system/dao/filesDAO.php" />
+        <option value="$PROJECT_DIR$/system/classes/payments.php" />
+        <option value="$PROJECT_DIR$/system/dao/paymentsDAO.php" />
+        <option value="$PROJECT_DIR$/system/beneficiaries.php" />
+        <option value="$PROJECT_DIR$/system/payments.php" />
+        <option value="$PROJECT_DIR$/system/graficos/mem_image.php" />
+        <option value="$PROJECT_DIR$/system/logar.php" />
+        <option value="$PROJECT_DIR$/system/login.php" />
         <option value="$PROJECT_DIR$/system/verificarLogin.php" />
+        <option value="$PROJECT_DIR$/system/recEmail.php" />
         <option value="$PROJECT_DIR$/system/dao/userDao.php" />
         <option value="$PROJECT_DIR$/system/user.php" />
+        <option value="$PROJECT_DIR$/system/assets/css/paper-dashboard.css" />
+        <option value="$PROJECT_DIR$/system/dashboard.php" />
+        <option value="$PROJECT_DIR$/system/relatorio/beneficiarios_relatorio.php" />
+        <option value="$PROJECT_DIR$/system/relatorio/beneficiariosCidade_relatorio.php" />
+        <option value="$PROJECT_DIR$/system/relatorio/pagamentos_relatorio.php" />
+        <option value="$PROJECT_DIR$/system/relatorio/pagamentosCidade_relatorio.php" />
+        <option value="$PROJECT_DIR$/system/relatorio/pagamentosEstado_relatorio.php" />
+        <option value="$PROJECT_DIR$/system/relatorio/pagamentosRegiao_relatorio.php" />
+        <option value="$PROJECT_DIR$/system/relatorio/totalBeneficiariosAuxilio_relatorio.php" />
+        <option value="$PROJECT_DIR$/system/sair.php" />
+        <option value="$PROJECT_DIR$/system/index.php" />
         <option value="$PROJECT_DIR$/system/classes/template.php" />
+        <option value="$PROJECT_DIR$/system/db/conexao.php" />
       </list>
     </option>
   </component>
@@ -128,11 +405,36 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/setasign/fpdi" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/vendor/davefx/phplot" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/mpdf/tmp" />
+      <path value="$PROJECT_DIR$/vendor/mpdf/font" />
+      <path value="$PROJECT_DIR$/vendor/mpdf/mpdfi" />
+      <path value="$PROJECT_DIR$/vendor/mpdf/utils" />
+      <path value="$PROJECT_DIR$/vendor/mpdf/classes" />
+      <path value="$PROJECT_DIR$/vendor/mpdf/ttfonts" />
+      <path value="$PROJECT_DIR$/vendor/mpdf/examples" />
+      <path value="$PROJECT_DIR$/vendor/mpdf/includes" />
+      <path value="$PROJECT_DIR$/vendor/mpdf/patterns" />
+      <path value="$PROJECT_DIR$/vendor/mpdf/ttfontdata" />
+      <path value="$PROJECT_DIR$/vendor/mpdf/graph_cache" />
+      <path value="$PROJECT_DIR$/vendor/mpdf/iccprofiles" />
+      <path value="$PROJECT_DIR$/vendor/fpdf/fpdf181" />
+    </include_path>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="87" />
-    <option name="y" value="13" />
-    <option name="width" value="1196" />
+    <option name="x" value="-7" />
+    <option name="width" value="694" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -153,35 +455,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="EconomiC-Analyzer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EconomiC-Analyzer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="EconomiC-Analyzer(ultimo)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EconomiC-Analyzer(ultimo)" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="EconomiC-Analyzer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EconomiC-Analyzer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="EconomiC-Analyzer(ultimo)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EconomiC-Analyzer(ultimo)" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="system" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="EconomiC-Analyzer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EconomiC-Analyzer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="EconomiC-Analyzer(ultimo)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EconomiC-Analyzer(ultimo)" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="system" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="classes" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="EconomiC-Analyzer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EconomiC-Analyzer" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="system" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="dao" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="EconomiC-Analyzer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EconomiC-Analyzer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="EconomiC-Analyzer(ultimo)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EconomiC-Analyzer(ultimo)" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="system" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="db" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
@@ -189,6 +484,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,8 +496,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Adilson\Desktop\EconomiC-Analyzer(ultimo)\vendor" />
+      <recent name="C:\Users\Rotciv\Desktop\EconomiC-Analyzer\vendor" />
+      <recent name="C:\Users\Rotciv\Desktop\EconomiC-Analyzer\vendor\mpdf\mpdf" />
+      <recent name="C:\Users\Rotciv\Desktop\EconomiC-Analyzer\system\db" />
       <recent name="C:\Users\Rotciv\Desktop\EconomiC-Analyzer\system\relatorio" />
-      <recent name="C:\Users\aluno\Desktop\EconomiC-Analyzer\system\libs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Adilson\projetos git\EconomiC-Analyzer\system" />
@@ -254,14 +553,25 @@
       <workItem from="1527081142987" duration="89000" />
       <workItem from="1527601354823" duration="12000" />
       <workItem from="1527634636481" duration="11332000" />
+      <workItem from="1527874897943" duration="12414000" />
+      <workItem from="1527894989658" duration="3149000" />
+      <workItem from="1527898755439" duration="1942000" />
+      <workItem from="1527901153991" duration="9932000" />
+      <workItem from="1528170849643" duration="5863000" />
+      <workItem from="1528206312451" duration="8283000" />
+      <workItem from="1528377944316" duration="2158000" />
+      <workItem from="1528505791115" duration="9173000" />
+      <workItem from="1528808863290" duration="10583000" />
+      <workItem from="1528834055443" duration="765000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77800000" />
+    <option name="totallyTimeSpent" value="142066000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -270,7 +580,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.228125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3095588" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -282,9 +592,32 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32755905" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32626426" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21544118" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32755905" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -294,525 +627,394 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="18" />
+      <option name="time" value="25" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/system/dao/tb_stateDAO.php" />
-    <entry file="file://$PROJECT_DIR$/system/tb_state.php" />
-    <entry file="file://$PROJECT_DIR$/system/programs.php" />
-    <entry file="file://$PROJECT_DIR$/system/index.php" />
     <entry file="file://$PROJECT_DIR$/system/files.php" />
-    <entry file="file://$PROJECT_DIR$/system/functions.php" />
-    <entry file="file://$PROJECT_DIR$/system/subfunctions.php" />
-    <entry file="file://$PROJECT_DIR$/system/region.php" />
-    <entry file="file://$PROJECT_DIR$/system/source.php" />
     <entry file="file://$PROJECT_DIR$/system/state.php" />
-    <entry file="file://$PROJECT_DIR$/system/action.php" />
-    <entry file="file://$PROJECT_DIR$/system/city.php" />
-    <entry file="file://$PROJECT_DIR$/system/payments.php" />
-    <entry file="file://$PROJECT_DIR$/db_eca.sql" />
-    <entry file="file://$PROJECT_DIR$/system/beneficiaries.php" />
-    <entry file="file://$PROJECT_DIR$/system/db/db_eca.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/dao/programsDAO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="50" column="37" lean-forward="false" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/dao/regionDAO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="48" column="35" lean-forward="false" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/dao/sourceDAO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="65" column="80" lean-forward="false" selection-start-line="65" selection-start-column="80" selection-end-line="65" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/dao/stateDAO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="61" column="80" lean-forward="false" selection-start-line="61" selection-start-column="80" selection-end-line="61" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/classes/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/classes/programs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/classes/region.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/system/dao/filesDAO.php" />
+    <entry file="file://$PROJECT_DIR$/system/dao/stateDAO.php" />
     <entry file="file://$PROJECT_DIR$/system/classes/state.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system/classes/subfunctions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system/classes/files.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/classes/city.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/libs/mpdf/tmp/.gitignore">
+    <entry file="file://$PROJECT_DIR$/system/classes/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/dao/beneficiariesDAO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="170" column="0" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/relatorio/beneficiarios_relatorio.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system/classes/source.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system/dao/actionDAO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/relatorio/relatorio.php">
+    <entry file="file://$PROJECT_DIR$/system/classes/region.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system/classes/beneficiaries.php">
+    <entry file="file://$PROJECT_DIR$/system/dao/cityDAO.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/classes/action.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/db/conexao.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="70" lean-forward="false" selection-start-line="2" selection-start-column="70" selection-end-line="2" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/verificarLogin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="30" />
-          <folding>
-            <marker date="1527638337993" expanded="true" signature="273:395" ph="SELECT id_us... tb_user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/dao/functionsDAO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="38" lean-forward="false" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
-          <folding>
-            <marker date="1527549448777" expanded="true" signature="217:265" ph="DELETE FROM tb_functions... " />
-            <marker date="1527549448777" expanded="true" signature="873:993" ph="UPDATE tb_functions... " />
-            <marker date="1527549448777" expanded="true" signature="1138:1247" ph="INSERT INTO tb_functions... " />
-            <marker date="1527549448777" expanded="true" signature="2104:2201" ph="SELECT id_fu... tb_functions" />
-            <marker date="1527549448777" expanded="true" signature="3485:3583" ph="SELECT id_fu... tb_functions" />
-            <marker date="1527549448777" expanded="true" signature="3811:3863" ph="SELECT COUNT... tb_functions" />
-            <marker date="1527549448777" expanded="true" signature="5299:5729" ph="..." />
-            <marker date="1527549448777" expanded="true" signature="5312:5716" ph="..." />
-            <marker date="1527549448777" expanded="false" signature="5332:5358" ph="..." />
-            <marker date="1527549448777" expanded="true" signature="5374:5702" ph="..." />
-            <marker date="1527549448777" expanded="false" signature="5395:5435" ph="..." />
-            <marker date="1527549448777" expanded="false" signature="5468:5508" ph="..." />
-            <marker date="1527549448777" expanded="false" signature="5548:5588" ph="..." />
-            <marker date="1527549448777" expanded="false" signature="5626:5666" ph="..." />
-            <marker date="1527549448777" expanded="true" signature="5797:6271" ph="..." />
-            <marker date="1527549448777" expanded="false" signature="5818:5836" ph="..." />
-            <marker date="1527549448777" expanded="false" signature="5881:5899" ph="..." />
-            <marker date="1527549448777" expanded="false" signature="5949:5967" ph="..." />
-            <marker date="1527549448777" expanded="false" signature="6018:6036" ph="..." />
-            <marker date="1527549448777" expanded="false" signature="6149:6167" ph="..." />
-            <marker date="1527549448777" expanded="false" signature="6381:6399" ph="..." />
-            <marker date="1527549448777" expanded="true" signature="6400:6669" ph="..." />
-            <marker date="1527549448777" expanded="true" signature="7556:7650" ph="SELECT id_fu... tb_functions" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/dao/filesDAO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1056">
-          <caret line="72" column="30" lean-forward="false" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
-          <folding>
-            <element signature="n#findId#0;n#filesDAO#0;n#!!top" expanded="false" />
-            <marker date="1527549448663" expanded="true" signature="205:245" ph="DELETE FROM tb_files... " />
-            <marker date="1527549448663" expanded="true" signature="833:943" ph="UPDATE tb_files... " />
-            <marker date="1527549448663" expanded="true" signature="1080:1184" ph="INSERT INTO tb_files... " />
-            <marker date="1527549448663" expanded="true" signature="2078:2162" ph="SELECT id_fi... tb_files" />
-            <marker date="1527549448663" expanded="true" signature="3444:3533" ph="SELECT id_fi... tb_files" />
-            <marker date="1527549448663" expanded="true" signature="3761:3809" ph="SELECT COUNT... tb_files" />
-            <marker date="1527549448663" expanded="true" signature="5245:5728" ph="..." />
-            <marker date="1527549448663" expanded="true" signature="5258:5715" ph="..." />
-            <marker date="1527549448663" expanded="false" signature="5278:5304" ph="..." />
-            <marker date="1527549448663" expanded="true" signature="5320:5701" ph="..." />
-            <marker date="1527549448663" expanded="false" signature="5341:5381" ph="..." />
-            <marker date="1527549448663" expanded="false" signature="5414:5454" ph="..." />
-            <marker date="1527549448663" expanded="false" signature="5485:5525" ph="..." />
-            <marker date="1527549448663" expanded="false" signature="5555:5595" ph="..." />
-            <marker date="1527549448663" expanded="false" signature="5625:5665" ph="..." />
-            <marker date="1527549448663" expanded="true" signature="5796:6307" ph="..." />
-            <marker date="1527549448663" expanded="false" signature="5817:5835" ph="..." />
-            <marker date="1527549448663" expanded="false" signature="5876:5894" ph="..." />
-            <marker date="1527549448663" expanded="false" signature="5941:5959" ph="..." />
-            <marker date="1527549448663" expanded="false" signature="6002:6020" ph="..." />
-            <marker date="1527549448663" expanded="false" signature="6062:6080" ph="..." />
-            <marker date="1527549448663" expanded="false" signature="6189:6207" ph="..." />
-            <marker date="1527549448663" expanded="false" signature="6417:6435" ph="..." />
-            <marker date="1527549448663" expanded="true" signature="6436:6705" ph="..." />
-            <marker date="1527549448663" expanded="true" signature="7584:7665" ph="SELECT id_fi... tb_files" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/dao/subfunctionsDAO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="829">
-          <caret line="49" column="41" lean-forward="false" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
-          <folding>
-            <marker date="1527549448841" expanded="true" signature="226:280" ph="DELETE FROM tb_subfunctions... " />
-            <marker date="1527549448841" expanded="true" signature="903:1041" ph="UPDATE tb_subfunctions... " />
-            <marker date="1527549448841" expanded="true" signature="1192:1316" ph="INSERT INTO tb_subfunctions... " />
-            <marker date="1527549448841" expanded="true" signature="2194:2306" ph="SELECT id_su... tb_subfunctions" />
-            <marker date="1527549448841" expanded="true" signature="3626:3736" ph="SELECT id_su... tb_subfunctions" />
-            <marker date="1527549448841" expanded="true" signature="3964:4019" ph="SELECT COUNT... tb_subfunctions" />
-            <marker date="1527549448841" expanded="true" signature="5455:5893" ph="..." />
-            <marker date="1527549448841" expanded="true" signature="5468:5880" ph="..." />
-            <marker date="1527549448841" expanded="false" signature="5488:5514" ph="..." />
-            <marker date="1527549448841" expanded="true" signature="5530:5866" ph="..." />
-            <marker date="1527549448841" expanded="false" signature="5551:5591" ph="..." />
-            <marker date="1527549448841" expanded="false" signature="5624:5664" ph="..." />
-            <marker date="1527549448841" expanded="false" signature="5708:5748" ph="..." />
-            <marker date="1527549448841" expanded="false" signature="5790:5830" ph="..." />
-            <marker date="1527549448841" expanded="true" signature="5964:6468" ph="..." />
-            <marker date="1527549448841" expanded="false" signature="5985:6003" ph="..." />
-            <marker date="1527549448841" expanded="false" signature="6054:6072" ph="..." />
-            <marker date="1527549448841" expanded="false" signature="6128:6146" ph="..." />
-            <marker date="1527549448841" expanded="false" signature="6203:6221" ph="..." />
-            <marker date="1527549448841" expanded="false" signature="6340:6358" ph="..." />
-            <marker date="1527549448841" expanded="false" signature="6578:6596" ph="..." />
-            <marker date="1527549448841" expanded="true" signature="6597:6866" ph="..." />
-            <marker date="1527549448841" expanded="true" signature="7759:7868" ph="SELECT id_su... tb_subfunctions" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system/classes/payments.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="17">
+          <caret line="51" column="35" lean-forward="false" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system/dao/paymentsDAO.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="161" column="14" lean-forward="true" selection-start-line="161" selection-start-column="14" selection-end-line="161" selection-end-column="14" />
-          <folding>
-            <marker date="1527553945153" expanded="true" signature="214:260" ph="DELETE FROM tb_payments... " />
-            <marker date="1527553945153" expanded="true" signature="858:1418" ph="UPDATE tb_payments... " />
-            <marker date="1527553945153" expanded="true" signature="1560:2058" ph="INSERT INTO tb_city... " />
-            <marker date="1527553945153" expanded="true" signature="3577:3939" ph="SELECT id_pa... tb_payments" />
-            <marker date="1527553945153" expanded="true" signature="5752:6220" ph="SELECT P.id_... tb_payments" />
-            <marker date="1527553945153" expanded="true" signature="6448:6499" ph="SELECT COUNT... tb_payments" />
-            <marker date="1527553945153" expanded="true" signature="7942:8882" ph="..." />
-            <marker date="1527553945153" expanded="true" signature="7955:8869" ph="..." />
-            <marker date="1527553945153" expanded="false" signature="7975:8001" ph="..." />
-            <marker date="1527553945153" expanded="true" signature="8017:8855" ph="..." />
-            <marker date="1527553945153" expanded="false" signature="8038:8078" ph="..." />
-            <marker date="1527553945153" expanded="false" signature="8111:8151" ph="..." />
-            <marker date="1527553945153" expanded="false" signature="8184:8224" ph="..." />
-            <marker date="1527553945153" expanded="false" signature="8257:8297" ph="..." />
-            <marker date="1527553945153" expanded="false" signature="8334:8374" ph="..." />
-            <marker date="1527553945153" expanded="false" signature="8409:8449" ph="..." />
-            <marker date="1527553945153" expanded="false" signature="8480:8520" ph="..." />
-            <marker date="1527553945153" expanded="false" signature="8560:8600" ph="..." />
-            <marker date="1527553945153" expanded="false" signature="8632:8672" ph="..." />
-            <marker date="1527553945153" expanded="false" signature="8707:8747" ph="..." />
-            <marker date="1527553945153" expanded="false" signature="8779:8819" ph="..." />
-            <marker date="1527553945153" expanded="true" signature="8950:9937" ph="..." />
-            <marker date="1527553945153" expanded="false" signature="8971:8989" ph="..." />
-            <marker date="1527553945153" expanded="false" signature="9033:9051" ph="..." />
-            <marker date="1527553945153" expanded="false" signature="9100:9118" ph="..." />
-            <marker date="1527553945153" expanded="false" signature="9176:9194" ph="..." />
-            <marker date="1527553945153" expanded="false" signature="9258:9276" ph="..." />
-            <marker date="1527553945153" expanded="false" signature="9331:9349" ph="..." />
-            <marker date="1527553945153" expanded="false" signature="9402:9420" ph="..." />
-            <marker date="1527553945153" expanded="false" signature="9487:9505" ph="..." />
-            <marker date="1527553945153" expanded="false" signature="9558:9576" ph="..." />
-            <marker date="1527553945153" expanded="false" signature="9626:9644" ph="..." />
-            <marker date="1527553945153" expanded="false" signature="9686:9704" ph="..." />
-            <marker date="1527553945153" expanded="false" signature="9816:9834" ph="..." />
-            <marker date="1527553945153" expanded="false" signature="10047:10065" ph="..." />
-            <marker date="1527553945153" expanded="true" signature="10066:10335" ph="..." />
-            <marker date="1527553945153" expanded="true" signature="11199:11273" ph="SELECT tb_be... tb_payments" />
-            <marker date="1527553945153" expanded="true" signature="11793:12132" ph="SELECT id_pa... tb_payments" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system/dao/cityDAO.php">
+    <entry file="file://$PROJECT_DIR$/vendor/fpdf/fpdf181/doc/ln.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-515">
-          <caret line="70" column="30" lean-forward="false" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="476">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system/user.php">
+    <entry file="file://$PROJECT_DIR$/system/payments.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-73">
-          <caret line="81" column="75" lean-forward="false" selection-start-line="81" selection-start-column="75" selection-end-line="81" selection-end-column="75" />
-          <folding />
+        <state relative-caret-position="282">
+          <caret line="54" column="89" lean-forward="false" selection-start-line="54" selection-start-column="89" selection-end-line="54" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/logar.php" />
+    <entry file="file://$PROJECT_DIR$/system/verificarLogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="121" lean-forward="false" selection-start-line="32" selection-start-column="121" selection-end-line="32" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/recuperar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system/dao/userDao.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="147" column="66" lean-forward="true" selection-start-line="147" selection-start-column="66" selection-end-line="147" selection-end-column="66" />
-          <folding>
-            <element signature="n#delete#0;n#userDao#0;n#!!top" expanded="false" />
-            <element signature="n#save#0;n#userDao#0;n#!!top" expanded="false" />
-            <element signature="n#update#0;n#userDao#0;n#!!top" expanded="false" />
-            <element signature="n#pagedTableUser#0;n#userDao#0;n#!!top" expanded="false" />
-            <marker date="1527644525269" expanded="true" signature="3644:3744" ph="SELECT id_us... tb_user" />
-            <marker date="1527644525269" expanded="true" signature="3972:4019" ph="SELECT COUNT... tb_user" />
-            <marker date="1527644525269" expanded="true" signature="5463:6200" ph="..." />
-            <marker date="1527644525269" expanded="true" signature="5484:6179" ph="..." />
-            <marker date="1527644525269" expanded="true" signature="5512:5538" ph="..." />
-            <marker date="1527644525269" expanded="true" signature="5554:6157" ph="..." />
-            <marker date="1527644525269" expanded="true" signature="5583:5623" ph="..." />
-            <marker date="1527644525269" expanded="true" signature="5671:5711" ph="..." />
-            <marker date="1527644525269" expanded="true" signature="5750:5790" ph="..." />
-            <marker date="1527644525269" expanded="true" signature="5830:5870" ph="..." />
-            <marker date="1527644525269" expanded="true" signature="5910:5950" ph="..." />
-            <marker date="1527644525269" expanded="true" signature="5993:6033" ph="..." />
-            <marker date="1527644525269" expanded="true" signature="6073:6113" ph="..." />
-            <marker date="1527644525269" expanded="true" signature="6268:6963" ph="..." />
-            <marker date="1527644525269" expanded="true" signature="6297:6315" ph="..." />
-            <marker date="1527644525269" expanded="true" signature="6364:6382" ph="..." />
-            <marker date="1527644525269" expanded="true" signature="6433:6451" ph="..." />
-            <marker date="1527644525269" expanded="true" signature="6498:6516" ph="..." />
-            <marker date="1527644525269" expanded="true" signature="6566:6584" ph="..." />
-            <marker date="1527644525269" expanded="true" signature="6632:6650" ph="..." />
-            <marker date="1527644525269" expanded="true" signature="6702:6720" ph="..." />
-            <marker date="1527644525269" expanded="true" signature="6837:6855" ph="..." />
-            <marker date="1527644525269" expanded="true" signature="7085:7103" ph="..." />
-            <marker date="1527644525269" expanded="true" signature="7104:7373" ph="..." />
-            <marker date="1527644525269" expanded="true" signature="8746:8846" ph="SELECT id_us... tb_user" />
-            <marker date="1527644525269" expanded="true" signature="9074:9121" ph="SELECT COUNT... tb_user" />
-            <marker date="1527644525269" expanded="true" signature="10565:11208" ph="..." />
-            <marker date="1527644525269" expanded="true" signature="10586:11187" ph="..." />
-            <marker date="1527644525269" expanded="true" signature="10614:10640" ph="..." />
-            <marker date="1527644525269" expanded="true" signature="10656:11165" ph="..." />
-            <marker date="1527644525269" expanded="true" signature="10685:10725" ph="..." />
-            <marker date="1527644525269" expanded="true" signature="10773:10813" ph="..." />
-            <marker date="1527644525269" expanded="true" signature="10852:10892" ph="..." />
-            <marker date="1527644525269" expanded="true" signature="10932:10972" ph="..." />
-            <marker date="1527644525269" expanded="true" signature="11012:11052" ph="..." />
-            <marker date="1527644525269" expanded="true" signature="11093:11133" ph="..." />
-            <marker date="1527644525269" expanded="true" signature="11275:11701" ph="..." />
-            <marker date="1527644525269" expanded="true" signature="11304:11322" ph="..." />
-            <marker date="1527644525269" expanded="true" signature="11371:11389" ph="..." />
-            <marker date="1527644525269" expanded="true" signature="11440:11458" ph="..." />
-            <marker date="1527644525269" expanded="true" signature="11505:11523" ph="..." />
-            <marker date="1527644525269" expanded="true" signature="11573:11591" ph="..." />
-            <marker date="1527644525269" expanded="true" signature="11639:11657" ph="..." />
-            <marker date="1527644525269" expanded="true" signature="11823:11841" ph="..." />
-            <marker date="1527644525269" expanded="true" signature="11842:12111" ph="..." />
-          </folding>
+        <state relative-caret-position="342">
+          <caret line="190" column="69" lean-forward="false" selection-start-line="190" selection-start-column="69" selection-end-line="190" selection-end-column="69" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system/classes/template.php">
+    <entry file="file://$PROJECT_DIR$/system/assets/css/animate.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="132" column="24" lean-forward="true" selection-start-line="132" selection-start-column="24" selection-end-line="132" selection-end-column="24" />
-          <folding>
-            <marker date="1527646055471" expanded="true" signature="99:1210" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="106:1203" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="1289:2012" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="1333:1994" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="1375:1682" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="1400:1659" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="1430:1633" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="1514:1603" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="1735:1975" ph="..." />
-            <marker date="1527646055471" expanded="false" signature="1757:1763" ph="©" />
-            <marker date="1527646055471" expanded="true" signature="2428:5773" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="2521:5773" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="2536:2805" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="2848:5762" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="2881:3046" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="3078:5747" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="3116:3302" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="3163:3280" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="3323:3502" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="3365:3480" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="3523:3714" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="3572:3692" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="3735:3911" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="3776:3889" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="3932:4117" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="3977:4095" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="4138:4329" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="4186:4307" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="4350:4529" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="4392:4507" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="4550:4732" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="4594:4710" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="4753:4927" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="4793:4905" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="4948:5124" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="4989:5102" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="5145:5323" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="5187:5301" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="5344:5534" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="5388:5512" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="5555:5729" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="5595:5707" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="5855:8100" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="5901:8100" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="5945:8085" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="5991:6453" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="6060:6349" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="6510:8066" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="6573:8042" ph="..." />
-            <marker date="1527646055471" expanded="true" signature="6603:8014" ph="..." />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system/classes/user.php">
+    <entry file="file://$PROJECT_DIR$/system/assets/css/paper-dashboard.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-          <folding>
-            <element signature="n#getIdUser#0;n#user#0;n#!!top" expanded="false" />
-            <element signature="n#setIdUser#0;n#user#0;n#!!top" expanded="false" />
-            <element signature="n#getNameUser#0;n#user#0;n#!!top" expanded="false" />
-            <element signature="n#setNameUser#0;n#user#0;n#!!top" expanded="false" />
-            <element signature="n#getLogin#0;n#user#0;n#!!top" expanded="false" />
-            <element signature="n#setLogin#0;n#user#0;n#!!top" expanded="false" />
-            <element signature="n#getPassword#0;n#user#0;n#!!top" expanded="false" />
-            <element signature="n#setPassword#0;n#user#0;n#!!top" expanded="false" />
-            <element signature="n#getStatus#0;n#user#0;n#!!top" expanded="false" />
-            <element signature="n#setStatus#0;n#user#0;n#!!top" expanded="false" />
-            <element signature="n#getEmailUser#0;n#user#0;n#!!top" expanded="false" />
-            <element signature="n#setEmailUser#0;n#user#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="270">
+          <caret line="562" column="40" lean-forward="false" selection-start-line="562" selection-start-column="29" selection-end-line="562" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system/login.php">
+    <entry file="file://$PROJECT_DIR$/system/dao/actionDAO.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="80" lean-forward="true" selection-start-line="4" selection-start-column="80" selection-end-line="4" selection-end-column="80" />
+        <state relative-caret-position="-2557">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/classes/action.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/assets/assetsdaTeladeLogin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-653">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/graficos/beneficiarioMesAno_grafico.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-384">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/graficos/beneficiarioMesAno_grafico-IMAGEM.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/graficos/beneficiarioMesEstado_grafico-IMAGEM.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-143">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/graficos/mem_image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-537">
+          <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/graficos/valoreMesEstado_grafico.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-639">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/graficos/valoreMesEstado_grafico-IMAGEM.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-486">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/graficos/beneficiarioMesEstado_grafico.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-517">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/relatorio/beneficiarios_relatorio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/relatorio/beneficiariosCidade_relatorio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="45" column="40" lean-forward="false" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/relatorio/pagamentos_relatorio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="47" column="32" lean-forward="false" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/relatorio/pagamentosCidade_relatorio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="17" lean-forward="false" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/relatorio/pagamentosEstado_relatorio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="42" lean-forward="false" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/relatorio/pagamentosRegiao_relatorio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="32" lean-forward="false" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/relatorio/totalBeneficiariosAuxilio_relatorio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/assets/img/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/assets/img/giphy.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/action.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1149">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="73" column="52" lean-forward="false" selection-start-line="73" selection-start-column="52" selection-end-line="73" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/recEmail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="138" column="34" lean-forward="true" selection-start-line="136" selection-start-column="28" selection-end-line="138" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/sair.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/beneficiaries.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        <state relative-caret-position="425">
+          <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/classes/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="191" column="20" lean-forward="false" selection-start-line="191" selection-start-column="20" selection-end-line="191" selection-end-column="20" />
+          <folding>
+            <marker date="1528819444656" expanded="true" signature="99:1210" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="106:1203" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="1289:2012" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="1333:1994" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="1375:1682" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="1400:1659" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="1430:1633" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="1514:1603" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="1735:1975" ph="..." />
+            <marker date="1528819444656" expanded="false" signature="1757:1763" ph="©" />
+            <marker date="1528819444656" expanded="true" signature="2428:5756" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="2521:5756" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="2536:2805" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="2848:5745" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="2881:3046" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="3078:5730" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="3099:3285" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="3146:3263" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="3306:3485" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="3348:3463" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="3506:3697" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="3555:3675" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="3718:3894" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="3759:3872" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="3915:4100" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="3960:4078" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="4121:4312" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="4169:4290" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="4333:4512" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="4375:4490" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="4533:4715" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="4577:4693" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="4736:4910" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="4776:4888" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="4931:5107" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="4972:5085" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="5128:5306" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="5170:5284" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="5327:5517" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="5371:5495" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="5538:5712" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="5578:5690" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="5838:8299" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="5884:8299" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="5928:8271" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="5974:6414" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="5974:6436" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="6043:6332" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="6471:6488" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="6489:6589" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="6657:8235" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="6720:8189" ph="..." />
+            <marker date="1528819444656" expanded="true" signature="6750:8161" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/db/conexao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="77" lean-forward="false" selection-start-line="2" selection-start-column="77" selection-end-line="2" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="72" lean-forward="true" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#center#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

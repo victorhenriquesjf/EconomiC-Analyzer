@@ -169,21 +169,7 @@ class beneficiariesDAO
 
     }
 
-    public function findAll()
-    {
-        global $pdo;
-        try {
-            $statement = $pdo->prepare('SELECT id_beneficiaries, str_nis,str_name_person FROM tb_beneficiaries ORDER BY str_name_person');
-            if ($statement->execute()) {
-                $listaBeneficiaios= $statement->fetchAll(PDO::FETCH_OBJ);
-                return $listaBeneficiaios;
-            }else {
-                throw new PDOException("<script> alert('Não foi possível executar a declaração SQL !'); </script>");
-            }
-        }catch (PDOException $erro) {
-            return "Erro: " . $erro->getMessage();
-        }
-    }
+
 
     public function findId($id)
     {
@@ -206,4 +192,23 @@ class beneficiariesDAO
         }
     }
 
+    public function countAll()
+    {
+        global $pdo;
+        try {
+            $statement = $pdo->prepare('SELECT count(*) AS countAll FROM tb_beneficiaries;');
+            if ($statement->execute()) {
+                $rs = $statement->fetchAll(PDO::FETCH_ASSOC);
+                foreach ($rs as $value) {
+                    if($value['countAll'])
+                        $countAll = $value['countAll'];
+                }
+                return $countAll;
+            }else {
+                throw new PDOException("<script> alert(Não foi possível executar a declaração sql'); </script>");
+            }
+        }catch (PDOException $erro) {
+            return "Erro: " . $erro->getMessage();
+        }
+    }
 }

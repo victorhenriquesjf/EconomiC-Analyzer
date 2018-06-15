@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/davefx/phplot" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/fpdf/fpdf181" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/mpdf/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/mpdf/examples" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/mpdf/font" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/mpdf/graph_cache" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/mpdf/iccprofiles" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/mpdf/includes" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/mpdf/mpdfi" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/mpdf/patterns" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/mpdf/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/mpdf/ttfontdata" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/mpdf/ttfonts" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/mpdf/utils" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/paragonie/random_compat" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phpmailer/phpmailer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/setasign/fpdi" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

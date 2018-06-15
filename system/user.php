@@ -38,7 +38,7 @@ if (isset($_REQUEST["act"]) && $_REQUEST["act"] == "upd" && $id_user != "") {
 
     $name_user =  $resultado->getNameUser();
     $login =$resultado->getLogin();
-    $password = $resultado->getPassword();
+    $password = "";
     $status = $resultado->getStatus();
     $email_user = $resultado->getEmailUser();
 
@@ -72,7 +72,6 @@ if (isset($_REQUEST["act"]) && $_REQUEST["act"] == "del" && $id_user != "") {
                 <div class='card'>
                     <div class='header'>
                         <h4 class='title'>Users</h4>
-                        <p class='category'>Users</p>
 
                     </div>
                     <div class='content table-responsive'>

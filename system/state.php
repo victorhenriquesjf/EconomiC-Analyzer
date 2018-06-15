@@ -16,22 +16,22 @@ $template->mainpanel();
 
 // Verificar se foi enviando dados via POST
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $id = (isset($_POST["id"]) && $_POST["id"] != null) ? $_POST["id"] : "";
+    $id_state = (isset($_POST["id_state"]) && $_POST["id_state"] != null) ? $_POST["id_state"] : "";
     $str_uf = (isset($_POST["str_uf"]) && $_POST["str_uf"] != null) ? $_POST["str_uf"] : "";
     $str_name = (isset($_POST["str_name"]) && $_POST["str_name"] != null) ? $_POST["str_name"] : "";
     $tb_region_id_region = (isset($_POST["tb_region_id_region"]) && $_POST["tb_region_id_region"] != null) ? $_POST["tb_region_id_region"] : "";
-} else if (!isset($id)) {
-    // Se não se não foi setado nenhum valor para variável $id
-    $id = (isset($_GET["id"]) && $_GET["id"] != null) ? $_GET["id"] : "";
+} else if (!isset($id_state)) {
+    // Se não se não foi setado nenhum valor para variável $id_state
+    $id_state = (isset($_GET["id"]) && $_GET["id"] != null) ? $_GET["id"] : "";
     $str_uf = NULL;
     $str_name = NULL;
     $tb_region_id_region = NULL;
 
 }
 
-if (isset($_REQUEST["act"]) && $_REQUEST["act"] == "upd" && $id != "") {
+if (isset($_REQUEST["act"]) && $_REQUEST["act"] == "upd" && $id_state != "") {
 
-    $state = new state($id, '', '', '');
+    $state = new state($id_state, '', '', '');
 
     $resultado = $object->update($state);
     $str_uf = $resultado->getStrUf();
@@ -41,19 +41,19 @@ if (isset($_REQUEST["act"]) && $_REQUEST["act"] == "upd" && $id != "") {
 }
 
 if (isset($_REQUEST["act"]) && $_REQUEST["act"] == "save" && $str_name != "" && $str_uf != "") {
-    $state = new state($id, $str_uf, $str_name, $tb_region_id_region);
+    $state = new state($id_state, $str_uf, $str_name, $tb_region_id_region);
     $msg = $object->save($state);
-    $id = null;
+    $id_state = null;
     $str_uf = null;
     $str_name = null;
     $tb_region_id_region = null;
 
 }
 
-if (isset($_REQUEST["act"]) && $_REQUEST["act"] == "del" && $id != "") {
-    $state = new state($id, '', '', '');
+if (isset($_REQUEST["act"]) && $_REQUEST["act"] == "del" && $id_state != "") {
+    $state = new state($id_state, '', '', '');
     $msg = $object->delete($state);
-    $id = null;
+    $id_state = null;
 }
 
 ?>
@@ -74,7 +74,7 @@ if (isset($_REQUEST["act"]) && $_REQUEST["act"] == "del" && $id != "") {
 
                             <input type="hidden" name="id" value="<?php
 
-                            echo (isset($id) && ($id != null || $id != "")) ? $id : '';
+                            echo (isset($id_state) && ($id_state != null || $id_state != "")) ? $id_state : '';
                             ?>"/>
                             UF:
                             <input class="form-control" type="text" name="str_uf" value="<?php
