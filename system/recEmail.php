@@ -4,9 +4,9 @@ set_time_limit(60);
 
 
 require_once 'dao/userDAO.php';
-require_once "../vendor/phpmailer/phpmailer/src/PHPMailer.php";
-require_once "../vendor/phpmailer/phpmailer/src/SMTP.php";
-require_once "../vendor/phpmailer/phpmailer/src/Exception.php";
+require_once "../system/vendor/phpmailer/phpmailer/src/PHPMailer.php";
+require_once "../system/vendor/phpmailer/phpmailer/src/SMTP.php";
+require_once "../system/vendor/phpmailer/phpmailer/src/Exception.php";
 
 use PHPMailer\PHPMailer\PHPMailer;
 

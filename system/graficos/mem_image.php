@@ -1,7 +1,7 @@
 <?php
 
 
-require_once "../../vendor/fpdf/fpdf181/fpdf.php";
+require_once "../vendor/fpdf/fpdf181/fpdf.php";
 
 // Stream handler to read from global variables
 class VariableStream

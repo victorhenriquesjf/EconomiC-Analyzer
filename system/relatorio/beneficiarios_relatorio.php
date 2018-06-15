@@ -1,7 +1,7 @@
 <?php
 ini_set('display_errors', 0);
 
-require_once "../../vendor/mpdf/mpdf.php";
+require_once "../vendor/mpdf/mpdf.php";
 require_once "../dao/reportDAO.php";
 require_once "../db/conexao.php";
 

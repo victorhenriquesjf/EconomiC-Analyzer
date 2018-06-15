@@ -1,5 +1,5 @@
 <?php
-require_once "../../vendor/davefx/phplot/phplot/phplot.php";
+require_once "../vendor/davefx/phplot/phplot/phplot.php";
 require_once "../db/conexao.php";
 
 #Instancia o objeto e setando o tamanho do grafico na tela

@@ -1,6 +1,6 @@
 <?php
 
-require_once "../../vendor/davefx/phplot/phplot/phplot.php";
+require_once "../vendor/davefx/phplot/phplot/phplot.php";
 require_once "../db/conexao.php";
 require_once "../graficos/mem_image.php";
 
